@@ -32,7 +32,6 @@
                 <xsd:element name="powerConsumption" type="xsd:positiveInteger"/>
                 <xsd:element ref="groupOfComponents" />
             </xsd:sequence>
-            <xsd:attribute name="id" type="xsd:ID" use="required"/>
         </xsd:complexType>
     </xsd:element>
 
