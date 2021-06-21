@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<devices xsd:schemaLocation="devices.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance">
+ <device idDevice="A1">
+    	<deviceName>Logitech B100</deviceName>
+    	<origin>Europe</origin>
+    	<serialNumber>B3213FG2104</serialNumber>
+    	<price>10.2</price>
+    	<dateSupply>2021-04-03</dateSupply>
+    	<isCritical>0</isCritical>
+    	<type>
+    		<isPeripheral>true</isPeripheral>
+      		<withCooler>false</withCooler>
+      		<groupOfComponents>Input-Output device</groupOfComponents>
+    	</type>
+  </device>
+
+  <device idDevice="A2">
+    	<deviceName>Logitech K120</deviceName>
+    	<origin>China</origin>
+    	<serialNumber>B3213FG2104</serialNumber>
+    	<price>8.2</price>
+    	<dateSupply>2021-03-01</dateSupply>
+    	<isCritical>0</isCritical>
+    	<type>
+     		<isPeripheral>true</isPeripheral>
+      		<withCooler>false</withCooler>
+      		<powerConsumption>0</powerConsumption>
+      		<groupOfComponents>Input-Output device</groupOfComponents>
+    	</type>
+  </device>
+
+  <device idDevice="A3">
+    	<deviceName>Intel Core i5-3470 BOX</deviceName>
+    	<origin>China</origin>
+    	<serialNumber>B3322124FGF2G4</serialNumber>
+    	<price>150.0</price>
+    	<dateSupply>2014-03-01</dateSupply>
+    	<isCritical>true</isCritical>
+    	<type>
+      		<isPeripheral>false</isPeripheral>
+      		<withCooler>true</withCooler>
+      		<powerConsumption>77</powerConsumption>
+      		<groupOfComponents>Component device</groupOfComponents>
+    	</type>
+   </device>
+
+  <device idDevice="A4">
+    	<deviceName>Intel Core i3-10130 OEM</deviceName>
+    	<origin>China</origin>
+    	<serialNumber>FD343224FGF2G4</serialNumber>
+   	<price>200.0</price>
+    	<dateSupply>2020-03-01</dateSupply>
+    	<isCritical>true</isCritical>
+    	<type>
+      		<isPeripheral>false</isPeripheral>
+      		<withCooler>false</withCooler>
+      		<powerConsumption>65</powerConsumption>
+      		<groupOfComponents>Component device</groupOfComponents>
+    	</type>
+   </device>
+
+    <device idDevice="A5">
+    	<deviceName>SENNHEISER PC 3 CHAT</deviceName>
+    	<origin>USA</origin>
+    	<serialNumber>FDSF24F2192G4</serialNumber>
+    	<price>50.0</price>
+    	<dateSupply>2023-05-01</dateSupply>
+    	<isCritical>false</isCritical>
+    	<type>
+      		<isPeripheral>true</isPeripheral>
+      		<withCooler>false</withCooler>
+      		<groupOfComponents>Multimedia device</groupOfComponents>
+    	</type>
+   </device>
+
+   <device idDevice="A5">
+    	<deviceName>SENNHEISER PC 3 CHAT</deviceName>
+    	<origin>USA</origin>
+    	<serialNumber>FDSF24F2192G4</serialNumber>
+    	<price>50.0</price>
+    	<dateSupply>2023-05-01</dateSupply>
+    	<isCritical>false</isCritical>
+    	<type>
+      		<isPeripheral>true</isPeripheral>
+      		<withCooler>false</withCooler>
+      	<groupOfComponents>Multimedia device</groupOfComponents>
+    	</type>
+   </device>
+
+
+
+
+
+</devices>

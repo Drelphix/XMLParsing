@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="devices">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="device"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="device">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="deviceName" type="xsd:string"/>
+                <xsd:element ref="origin"/>
+                <xsd:element name="serialNumber" type="xsd:string" use="required"/>
+                <xsd:element name="price" type="xsd:float"/>
+                <xsd:element name="dateSupply" type="xsd:date"/>
+                <xsd:element name="isCritical" type="xsd:boolean"/>
+                <xsd:element ref="type"/>
+            </xsd:sequence>
+            <xsd:attribute name="idDevice" type="xsd:ID" use="required"/>
+        </xsd:complexType>
+    </xsd:element>
+
+
+    <xsd:element name="type" maxOccurs="1" use="required">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="isPeripheral" type="xsd:boolean"/>
+                <xsd:element name="withCooler" type="xsd:boolean"/>
+                <xsd:element name="powerConsumption" type="xsd:positiveInteger" use="optional"/>
+                <xsd:element ref="groupOfComponents"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+
+    <xsd:element name="ports" use="required">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="port" maxOccurs="5" minOccurs="1">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="COM"/>
+                            <xsd:enumeration value="LPT"/>
+                            <xsd:enumeration value="USB"/>
+                            <xsd:enumeration value="PS/2"/>
+                            <xsd:enumeration value="DVI"/>
+                            <xsd:enumeration value="SATA"/>
+                            <xsd:enumeration value="PCI-E"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+
+    <xsd:element name="groupOfComponents" use="optional">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:enumeration value="Input-Output device"/>
+                <xsd:enumeration value="Multimedia device"/>
+                <xsd:enumeration value="Component device"/>
+                <xsd:enumeration value="Storage devices"/>
+                <xsd:enumeration value="Network devices"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>
+
+    <xsd:element name="origin" default="China" use="optional" maxOccurs="1">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:pattern value="[A-Z]*"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>
+
+</xsd:schema>

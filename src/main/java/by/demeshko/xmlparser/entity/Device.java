@@ -1,18 +1,18 @@
 package by.demeshko.xmlparser.entity;
 
+import java.util.Arrays;
 import java.util.List;
-import java.util.Locale.IsoCountryCode;
 
 public class Device {
     private long idDevice;
     private String name;
-    private IsoCountryCode origin;
+    private String origin;
     private int price;
     private Type type;
     private boolean isCritical;
     private List<Port> ports;
 
-    public Device(long idDevice, String name, IsoCountryCode origin, int price, Type type, boolean isCritical, List<Port> ports) {
+    public Device(long idDevice, String name, String origin, int price, Type type, boolean isCritical, List<Port> ports) {
         this.idDevice = idDevice;
         this.name = name;
         this.origin = origin;
@@ -26,7 +26,7 @@ public class Device {
         this.name = name;
     }
 
-    public void setOrigin(IsoCountryCode origin) {
+    public void setOrigin(String origin) {
         this.origin = origin;
     }
 
@@ -35,7 +35,10 @@ public class Device {
     }
 
     public void setType(Type type) {
-        this.type = type;
+        this.type = new Type(type.isPeripheral(),
+                type.getPowerConsumption(),
+                type.isWithCooler(),
+                type.getGroupOfComponents());
     }
 
     public void setCritical(boolean critical) {
@@ -43,7 +46,7 @@ public class Device {
     }
 
     public void setPorts(List<Port> ports) {
-        this.ports = ports;
+        this.ports = List.copyOf(ports);
     }
 
     public long getIdDevice() {
@@ -54,7 +57,7 @@ public class Device {
         return name;
     }
 
-    public IsoCountryCode getOrigin() {
+    public String getOrigin() {
         return origin;
     }
 
@@ -63,7 +66,10 @@ public class Device {
     }
 
     public Type getType() {
-        return type;
+        return new Type(type.isPeripheral(),
+                type.getPowerConsumption(),
+                type.isWithCooler(),
+                type.getGroupOfComponents());
     }
 
     public boolean isCritical() {
@@ -71,7 +77,7 @@ public class Device {
     }
 
     public List<Port> getPorts() {
-        return ports;
+        return List.copyOf(this.ports);
     }
 
     public void deletePort(Port port){
