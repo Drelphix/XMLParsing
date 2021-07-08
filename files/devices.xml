@@ -1,94 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
-<devices xsi:schemaLocation="devices.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
- <device idDevice="A1">
-    	<deviceName>Logitech B100</deviceName>
-    	<origin>Europe</origin>
-    	<serialNumber>B3213FG2104</serialNumber>
-    	<price>10.2</price>
-    	<dateSupply>2021-04-03</dateSupply>
-    	<isCritical>0</isCritical>
-    	<type>
-    		<isPeripheral>true</isPeripheral>
-      		<withCooler>false</withCooler>
-      		<groupOfComponents>Input-Output device</groupOfComponents>
-    	</type>
-  </device>
-
-  <device idDevice="A2">
-    	<deviceName>Logitech K120</deviceName>
-    	<origin>China</origin>
-    	<serialNumber>B3213FG2104</serialNumber>
-    	<price>8.2</price>
-    	<dateSupply>2021-03-01</dateSupply>
-    	<isCritical>0</isCritical>
-    	<type>
-     		<isPeripheral>true</isPeripheral>
-      		<withCooler>false</withCooler>
-      		<powerConsumption>0</powerConsumption>
-      		<groupOfComponents>Input-Output device</groupOfComponents>
-    	</type>
-  </device>
-
-  <device idDevice="A3">
-    	<deviceName>Intel Core i5-3470 BOX</deviceName>
-    	<origin>China</origin>
-    	<serialNumber>B3322124FGF2G4</serialNumber>
-    	<price>150.0</price>
-    	<dateSupply>2014-03-01</dateSupply>
-    	<isCritical>true</isCritical>
-    	<type>
-      		<isPeripheral>false</isPeripheral>
-      		<withCooler>true</withCooler>
-      		<powerConsumption>77</powerConsumption>
-      		<groupOfComponents>Component device</groupOfComponents>
-    	</type>
-   </device>
-
-  <device idDevice="A4">
-    	<deviceName>Intel Core i3-10130 OEM</deviceName>
-    	<origin>China</origin>
-    	<serialNumber>FD343224FGF2G4</serialNumber>
-   	<price>200.0</price>
-    	<dateSupply>2020-03-01</dateSupply>
-    	<isCritical>true</isCritical>
-    	<type>
-      		<isPeripheral>false</isPeripheral>
-      		<withCooler>false</withCooler>
-      		<powerConsumption>65</powerConsumption>
-      		<groupOfComponents>Component device</groupOfComponents>
-    	</type>
-   </device>
-
-    <device idDevice="A5">
-    	<deviceName>SENNHEISER PC 3 CHAT</deviceName>
-    	<origin>USA</origin>
-    	<serialNumber>FDSF24F2192G4</serialNumber>
-    	<price>50.0</price>
-    	<dateSupply>2023-05-01</dateSupply>
-    	<isCritical>false</isCritical>
-    	<type>
-      		<isPeripheral>true</isPeripheral>
-      		<withCooler>false</withCooler>
-      		<groupOfComponents>Multimedia device</groupOfComponents>
-    	</type>
-   </device>
-
-   <device idDevice="A5">
-    	<deviceName>SENNHEISER PC 3 CHAT</deviceName>
-    	<origin>USA</origin>
-    	<serialNumber>FDSF24F2192G4</serialNumber>
-    	<price>50.0</price>
-    	<dateSupply>2023-05-01</dateSupply>
-    	<isCritical>false</isCritical>
-    	<type>
-      		<isPeripheral>true</isPeripheral>
-      		<withCooler>false</withCooler>
-      	<groupOfComponents>Multimedia device</groupOfComponents>
-    	</type>
-   </device>
-
-
-
-
-
-</devices>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<Devices xsi:noNamespaceSchemaLocation="devices.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<device xsi:type="Cpu" id="a0001">
+		<deviceName>Intel Pentium G6400</deviceName>
+		<origin>China</origin>
+		<price>220</price>
+		<critical>true</critical>
+		<peripheral>false</peripheral>
+		<groupOfComponents>Component device</groupOfComponents>
+		<powerConsumption>58</powerConsumption>
+		<cpuSocket>LGA1200</cpuSocket>
+		<architecture>Sandy Bridge</architecture>
+	</device>
+	<device xsi:type="Motherboard" id="a0002">
+		<deviceName>ASUS H110</deviceName>
+		<origin>Sweden</origin>
+		<price>611</price>
+		<critical>true</critical>
+		<peripheral>0</peripheral>
+		<groupOfComponents>Component device</groupOfComponents>
+		<cpuSocket>LGA1200</cpuSocket>
+		<memory>DDR-3</memory>
+		<outputPorts>
+			<port>VGA</port>
+			<port>DVI</port>
+		</outputPorts>
+	</device>
+	<device xsi:type="Cpu" id="a0003">
+		<deviceName>Intel i5-3470</deviceName>
+		<origin>Europe</origin>
+		<price>2684</price>
+		<critical>true</critical>
+		<peripheral>false</peripheral>
+		<groupOfComponents>Component device</groupOfComponents>
+		<powerConsumption>88</powerConsumption>
+		<cpuSocket>LGA1151</cpuSocket>
+		<architecture>Sandy Bridge</architecture>
+	</device>
+	<device xsi:type="VideoCard" id="a0004">
+		<deviceName>Geforce 210</deviceName>
+		<origin>Belarus</origin>
+		<price>7028</price>
+		<critical>0</critical>
+		<peripheral>0</peripheral>
+		<groupOfComponents>Component device</groupOfComponents>
+		<powerConsumption>15</powerConsumption>
+		<cooler>0</cooler>
+		<outputPorts>
+			<port>DVI</port>
+		</outputPorts>
+		<hashRate>180</hashRate>
+	</device>
+	<device xsi:type="Cpu" id="a0005">
+		<deviceName>AMD A-10</deviceName>
+		<origin>China</origin>
+		<price>2601</price>
+		<critical>true</critical>
+		<peripheral>0</peripheral>
+		<groupOfComponents>Component device</groupOfComponents>
+		<powerConsumption>128</powerConsumption>
+		<cpuSocket>FM2</cpuSocket>
+		<architecture>Cannon Lake</architecture>
+	</device>
+	<device xsi:type="Motherboard" id="a0006">
+		<deviceName>ASROCK H410</deviceName>
+		<origin>China</origin>
+		<price>563</price>
+		<critical>true</critical>
+		<peripheral>false</peripheral>
+		<groupOfComponents>Component device</groupOfComponents>
+		<cpuSocket>LGA1156</cpuSocket>
+		<memory>DDR-5</memory>
+		<outputPorts>
+			<port>USB</port>
+			<port>DVI</port>
+			<port>PCI-E</port>
+		</outputPorts>
+	</device>
+	<device xsi:type="Cpu" id="a0007">
+		<deviceName>AMD Ryzen H4800</deviceName>
+		<origin>Europe</origin>
+		<price>696</price>
+		<critical>true</critical>
+		<peripheral>false</peripheral>
+		<groupOfComponents>Component device</groupOfComponents>
+		<powerConsumption>102</powerConsumption>
+		<cpuSocket>LGA1151</cpuSocket>
+		<architecture>Cannon Lake</architecture>
+	</device>
+	<device xsi:type="Cpu" id="a0008">
+		<deviceName>Intel Pentium 200</deviceName>
+		<origin>USA</origin>
+		<price>536</price>
+		<critical>1</critical>
+		<peripheral>false</peripheral>
+		<groupOfComponents>Component device</groupOfComponents>
+		<powerConsumption>484</powerConsumption>
+		<cpuSocket>LGA1151</cpuSocket>
+		<architecture>Sandy Bridge</architecture>
+	</device>
+	<device xsi:type="Motherboard" id="a0009">
+		<deviceName>Asus Tuf Gaming h540</deviceName>
+		<origin>Taiwan</origin>
+		<price>9779</price>
+		<critical>1</critical>
+		<peripheral>0</peripheral>
+		<groupOfComponents>Component device</groupOfComponents>
+		<cpuSocket>FM2</cpuSocket>
+		<memory>DDR-2</memory>
+		<outputPorts>
+			<port>SATA</port>
+			<port>DVI</port>
+		</outputPorts>
+	</device>
+	<device xsi:type="Motherboard" id="a0010">
+		<deviceName>BeatGaming F14</deviceName>
+		<origin>Russia</origin>
+		<price>877</price>
+		<critical>1</critical>
+		<peripheral>0</peripheral>
+		<groupOfComponents>Component device</groupOfComponents>
+		<cpuSocket>FM2</cpuSocket>
+		<memory>DDR-3</memory>
+		<outputPorts>
+			<port>LPT</port>
+			<port>DVI</port>
+		</outputPorts>
+	</device>
+	<device xsi:type="Cpu" id="a0011">
+		<deviceName>string</deviceName>
+		<origin>Taiwan</origin>
+		<price>9939</price>
+		<critical>1</critical>
+		<peripheral>0</peripheral>
+		<groupOfComponents>Component device</groupOfComponents>
+		<powerConsumption>960</powerConsumption>
+		<cpuSocket>LGA1151</cpuSocket>
+		<architecture>Sandy Bridge</architecture>
+	</device>
+	<device xsi:type="Cpu" id="a0012">
+		<deviceName>Intel Mention S491</deviceName>
+		<origin>USA</origin>
+		<price>3431</price>
+		<critical>1</critical>
+		<peripheral>0</peripheral>
+		<groupOfComponents>Component device</groupOfComponents>
+		<powerConsumption>1354</powerConsumption>
+		<cpuSocket>LGA1156</cpuSocket>
+		<architecture>Cannon Lake</architecture>
+	</device>
+	<device xsi:type="Motherboard" id="a0013">
+		<deviceName>Wow gaming h1520</deviceName>
+		<origin>Japan</origin>
+		<price>171</price>
+		<critical>false</critical>
+		<peripheral>true</peripheral>
+		<groupOfComponents>Component device</groupOfComponents>
+		<cpuSocket>FM2</cpuSocket>
+		<memory>DDR-1</memory>
+		<outputPorts>
+			<port>PS/2</port>
+		</outputPorts>
+	</device>
+</Devices>
