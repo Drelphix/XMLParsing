@@ -10,9 +10,14 @@ public class DeviceRepositoryImpl implements DeviceRepository {
     private List<Device> devices = new ArrayList<>();
     private static final DeviceRepository DEVICE_REPOSITORY = new DeviceRepositoryImpl();
 
-    public DeviceRepository getInstance(){
+    private DeviceRepositoryImpl(){
+
+    }
+
+    public static DeviceRepository getInstance(){
         return DEVICE_REPOSITORY;
     }
+
     public int size() {
         return devices.size();
     }

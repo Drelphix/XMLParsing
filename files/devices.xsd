@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
-    <xsd:element name="Devices">
-        <xsd:complexType>
+
+    <xsd:element name="devices" type="Devices"/>
+    <xsd:element name="device" type="Device"/>
+    <xsd:element name="videoCard" type="VideoCard" substitutionGroup="device"/>
+    <xsd:element name="cpu" type="Cpu" substitutionGroup="device"/>
+    <xsd:element name="motherboard" type="Motherboard" substitutionGroup="device"/>
+
+        <xsd:complexType name="Devices">
             <xsd:sequence>
-                <xsd:element name="device" minOccurs="10" maxOccurs="unbounded" type="Device"/>
+                <xsd:element ref="device" minOccurs="10" maxOccurs="unbounded" />
             </xsd:sequence>
         </xsd:complexType>
-    </xsd:element>
 
         <xsd:complexType name="Device" abstract="true">
             <xsd:sequence>
@@ -26,7 +31,7 @@
                     <xsd:sequence>
                         <xsd:element name="powerConsumption" type="EnergyConsumption"/>
                         <xsd:element name="cooler" type="xsd:boolean"/>
-                        <xsd:element name="outputPorts" type="Ports"/>
+                        <xsd:element name="outputPort" type="Port"/>
                         <xsd:element name="hashRate" type="xsd:positiveInteger"/>
                     </xsd:sequence>
                 </xsd:extension>
@@ -38,8 +43,8 @@
             <xsd:extension base="Device">
                 <xsd:sequence>
                     <xsd:element name="cpuSocket" type="CpuSocket"/>
-                    <xsd:element name="memory" type="Memory"/>
-                    <xsd:element name="outputPorts" type="Ports"/>
+                    <xsd:element name="memoryType" type="Memory"/>
+                    <xsd:element name="sata" type="xsd:positiveInteger" default="4"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -57,10 +62,7 @@
         </xsd:complexContent>
     </xsd:complexType>
 
-        <xsd:complexType name="Ports">
-            <xsd:sequence>
-                <xsd:element name="port" maxOccurs="10">
-                    <xsd:simpleType>
+                    <xsd:simpleType name="Port">
                         <xsd:restriction base="xsd:string">
                             <xsd:enumeration value="COM"/>
                             <xsd:enumeration value="LPT"/>
@@ -72,9 +74,7 @@
                             <xsd:enumeration value="VGA"/>
                         </xsd:restriction>
                     </xsd:simpleType>
-                </xsd:element>
-            </xsd:sequence>
-        </xsd:complexType>
+
 
     <xsd:simpleType name="EnergyConsumption">
         <xsd:restriction base="xsd:int">
@@ -86,11 +86,11 @@
 
         <xsd:simpleType name="Memory">
             <xsd:restriction base="xsd:string">
-                <xsd:enumeration value="DDR-1"/>
-                <xsd:enumeration value="DDR-2"/>
-                <xsd:enumeration value="DDR-3"/>
-                <xsd:enumeration value="DDR-4"/>
-                <xsd:enumeration value="DDR-5"/>
+                <xsd:enumeration value="DDR1"/>
+                <xsd:enumeration value="DDR2"/>
+                <xsd:enumeration value="DDR3"/>
+                <xsd:enumeration value="DDR4"/>
+                <xsd:enumeration value="DDR5"/>
             </xsd:restriction>
         </xsd:simpleType>
 
@@ -120,11 +120,11 @@
 
         <xsd:simpleType name="GroupOfComponents" >
             <xsd:restriction base="xsd:string">
-                <xsd:enumeration value="Input-Output device"/>
-                <xsd:enumeration value="Multimedia device"/>
-                <xsd:enumeration value="Component device"/>
-                <xsd:enumeration value="Storage devices"/>
-                <xsd:enumeration value="Network devices"/>
+                <xsd:enumeration value="IO Device"/>
+                <xsd:enumeration value="multimedia Device"/>
+                <xsd:enumeration value="component Device"/>
+                <xsd:enumeration value="storage Device"/>
+                <xsd:enumeration value="network Device"/>
             </xsd:restriction>
         </xsd:simpleType>
 

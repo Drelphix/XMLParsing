@@ -4,15 +4,13 @@ import by.demeshko.xmlparser.entity.Device;
 
 public interface DeviceRepository {
 
-    public DeviceRepository getInstance();
+     int size();
 
-    public int size();
+     boolean add(Device device);
 
-    public boolean add(Device device);
+   boolean remove(Device device);
 
-    public boolean remove(Device device);
+    Device get(int index);
 
-    public Device get(int index);
-
-    public Device set(int index, Device device);
+     Device set(int index, Device device);
 }
