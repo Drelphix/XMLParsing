@@ -23,6 +23,7 @@
             <xsd:element name="component-group" type="GroupOfComponents"/>
         </xsd:sequence>
         <xsd:attribute name="id" use="required" type="xsd:ID"/>
+        <xsd:attribute name="date" use="required" type="xsd:date"/>
     </xsd:complexType>
 
     <xsd:complexType name="Videocard">

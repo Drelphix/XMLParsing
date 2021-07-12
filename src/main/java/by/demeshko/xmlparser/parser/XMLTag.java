@@ -20,7 +20,7 @@ public enum XMLTag {
     VIDEOCARD("videocard"),
     SATA("sata");
 
-    private String value;
+    private final String value;
 
     XMLTag(String value) {
         this.value = value;

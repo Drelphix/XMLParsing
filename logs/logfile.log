@@ -565,3 +565,291 @@ INFO  | 2021-07-12 15:48:11 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserIm
 INFO  | 2021-07-12 15:48:11 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
 INFO  | 2021-07-12 15:48:11 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
 INFO  | 2021-07-12 15:48:11 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+INFO  | 2021-07-12 16:46:37 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 16:46:37 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 16:46:37 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 16:46:37 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+INFO  | 2021-07-12 16:46:59 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 16:46:59 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 16:46:59 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 16:48:08 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+INFO  | 2021-07-12 16:53:05 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 16:53:05 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 16:53:05 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 16:53:10 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+INFO  | 2021-07-12 16:53:14 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 16:53:14 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 16:53:14 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 16:53:14 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+INFO  | 2021-07-12 16:57:13 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 16:57:13 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 16:57:13 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 16:57:22 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+INFO  | 2021-07-12 16:59:37 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 16:59:37 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 16:59:37 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 16:59:40 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+INFO  | 2021-07-12 16:59:53 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 16:59:53 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 16:59:53 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 17:00:03 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+INFO  | 2021-07-12 17:00:30 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 17:00:30 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 17:00:30 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 17:00:30 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+INFO  | 2021-07-12 17:01:25 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 17:01:25 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 17:01:25 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 17:01:25 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+INFO  | 2021-07-12 17:01:57 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 17:01:57 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 17:01:57 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 17:02:03 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+INFO  | 2021-07-12 20:06:18 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 20:06:18 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 20:06:18 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+ERROR | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag VIDEOCARD in Videocard
+ERROR | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag VIDEOCARD in Videocard
+ERROR | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag VIDEOCARD in Videocard
+ERROR | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag VIDEOCARD in Videocard
+ERROR | 2021-07-12 20:06:18 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag VIDEOCARD in Videocard
+INFO  | 2021-07-12 20:35:54 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 20:35:54 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 20:35:54 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 20:35:54 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+ERROR | 2021-07-12 20:37:20 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 20:39:50 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 20:39:50 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 20:39:50 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag VIDEOCARD in Videocard
+ERROR | 2021-07-12 20:39:50 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 20:39:50 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 20:39:50 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 20:39:50 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 20:39:50 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 20:39:50 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 20:39:50 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 20:39:50 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 20:39:50 | [main] handler.DeviceHandler (DeviceHandler.java:85) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+INFO  | 2021-07-12 20:39:56 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 20:39:56 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 20:39:56 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 20:39:56 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 20:40:36 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 20:40:36 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 20:40:36 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 20:40:36 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 20:42:04 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 20:42:04 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 20:42:04 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 20:42:04 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 20:42:30 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 20:42:30 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 20:42:30 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 20:42:30 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 20:43:02 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 20:43:02 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 20:43:02 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 20:43:02 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 20:44:56 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 20:44:56 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 20:44:56 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 20:44:56 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 20:45:24 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 20:45:24 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 20:45:24 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 20:45:24 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+ERROR | 2021-07-12 20:45:24 | [main] handler.DeviceHandler (DeviceHandler.java:86) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag DEVICES in CPU
+INFO  | 2021-07-12 20:45:39 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 20:45:39 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 20:45:39 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 20:45:39 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+ERROR | 2021-07-12 20:46:33 | [main] handler.DeviceHandler (DeviceHandler.java:86) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag DEVICES in CPU
+INFO  | 2021-07-12 20:49:07 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 20:49:07 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 20:49:07 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 20:49:07 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 20:49:45 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 20:49:45 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 20:49:45 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 20:49:45 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 20:50:26 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 20:50:26 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 20:50:26 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 20:50:26 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 20:58:12 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 20:58:12 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 20:58:12 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 20:58:12 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 20:58:12 | [main] handler.DeviceHandler (DeviceHandler.java:36) - SaXParser end to parse..
+INFO  | 2021-07-12 21:50:34 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 21:50:34 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 21:50:34 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 21:50:34 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 21:50:34 | [main] handler.DeviceHandler (DeviceHandler.java:36) - SaXParser end to parse..
+ERROR | 2021-07-12 21:50:34 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:87) - Can't parse file 
+java.io.FileNotFoundException:  (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:212) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:154) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:109) ~[?:?]
+	at by.demeshko.xmlparser.parser.impl.StaXXmlParserImpl.parseDevices(StaXXmlParserImpl.java:41) [classes/:?]
+	at by.demeshko.xmlparser.main.Application.main(Application.java:29) [classes/:?]
+INFO  | 2021-07-12 21:51:08 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 21:51:08 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 21:51:08 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 21:51:08 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 21:51:08 | [main] handler.DeviceHandler (DeviceHandler.java:36) - SaXParser end to parse..
+INFO  | 2021-07-12 21:51:08 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:39) - files/devices.xml
+INFO  | 2021-07-12 21:51:08 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:45) - StaX parser start to parse
+INFO  | 2021-07-12 21:52:08 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 21:52:08 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 21:52:08 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 21:52:08 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 21:52:08 | [main] handler.DeviceHandler (DeviceHandler.java:36) - SaXParser end to parse..
+INFO  | 2021-07-12 21:52:08 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:39) - files/devices.xml
+INFO  | 2021-07-12 21:52:08 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:45) - StaX parser start to parse
+INFO  | 2021-07-12 21:52:08 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:89) - StaX parser finish parsing
+INFO  | 2021-07-12 21:52:19 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 21:52:19 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 21:52:19 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 21:52:19 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 21:52:19 | [main] handler.DeviceHandler (DeviceHandler.java:36) - SaXParser end to parse..
+INFO  | 2021-07-12 21:52:19 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:39) - files/devices.xml
+INFO  | 2021-07-12 21:52:19 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:45) - StaX parser start to parse
+INFO  | 2021-07-12 21:52:19 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:89) - StaX parser finish parsing
+INFO  | 2021-07-12 21:52:22 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 21:52:22 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 21:52:22 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 21:52:22 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 21:52:22 | [main] handler.DeviceHandler (DeviceHandler.java:36) - SaXParser end to parse..
+INFO  | 2021-07-12 21:52:22 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:39) - files/devices.xml
+INFO  | 2021-07-12 21:52:22 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:45) - StaX parser start to parse
+INFO  | 2021-07-12 21:55:53 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 21:55:53 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 21:55:53 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 21:55:53 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 21:55:53 | [main] handler.DeviceHandler (DeviceHandler.java:36) - SaXParser end to parse..
+INFO  | 2021-07-12 21:55:53 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:41) - files/devices.xml
+INFO  | 2021-07-12 21:55:53 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:47) - StaX parser start to parse
+INFO  | 2021-07-12 21:56:04 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 21:56:04 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 21:56:04 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 21:56:04 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 21:56:04 | [main] handler.DeviceHandler (DeviceHandler.java:36) - SaXParser end to parse..
+INFO  | 2021-07-12 21:56:04 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:41) - files/devices.xml
+INFO  | 2021-07-12 21:56:04 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:47) - StaX parser start to parse
+INFO  | 2021-07-12 21:59:36 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 21:59:36 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 21:59:36 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 21:59:36 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 21:59:36 | [main] handler.DeviceHandler (DeviceHandler.java:36) - SaXParser end to parse..
+INFO  | 2021-07-12 21:59:36 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:41) - files/devices.xml
+INFO  | 2021-07-12 21:59:36 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:47) - StaX parser start to parse
+INFO  | 2021-07-12 21:59:45 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 21:59:45 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 21:59:45 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 21:59:45 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 21:59:45 | [main] handler.DeviceHandler (DeviceHandler.java:36) - SaXParser end to parse..
+INFO  | 2021-07-12 21:59:45 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:41) - files/devices.xml
+INFO  | 2021-07-12 21:59:45 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:47) - StaX parser start to parse
+INFO  | 2021-07-12 22:00:46 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 22:00:46 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 22:00:46 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 22:00:46 | [main] handler.DeviceHandler (DeviceHandler.java:31) - SaXParser start to parse..
+INFO  | 2021-07-12 22:00:46 | [main] handler.DeviceHandler (DeviceHandler.java:36) - SaXParser end to parse..
+INFO  | 2021-07-12 22:00:46 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:42) - files/devices.xml
+INFO  | 2021-07-12 22:00:46 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:48) - StaX parser start to parse
+INFO  | 2021-07-12 22:00:46 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:92) - StaX parser finish parsing
+INFO  | 2021-07-12 22:21:08 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 22:21:08 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 22:21:08 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 22:21:08 | [main] handler.DeviceHandler (DeviceHandler.java:33) - SaXParser start to parse..
+INFO  | 2021-07-12 22:24:16 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 22:24:16 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 22:24:16 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 22:24:16 | [main] handler.DeviceHandler (DeviceHandler.java:33) - SaXParser start to parse..
+INFO  | 2021-07-12 22:24:16 | [main] handler.DeviceHandler (DeviceHandler.java:38) - SaXParser end to parse..
+INFO  | 2021-07-12 22:24:16 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:42) - files/devices.xml
+INFO  | 2021-07-12 22:24:16 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:48) - StaX parser start to parse
+INFO  | 2021-07-12 22:24:16 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:92) - StaX parser finish parsing
+INFO  | 2021-07-12 22:26:04 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:38) - files/devices.xml
+INFO  | 2021-07-12 22:26:04 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
+INFO  | 2021-07-12 22:26:04 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:53) - Parsing finished.
+INFO  | 2021-07-12 22:26:04 | [main] handler.DeviceHandler (DeviceHandler.java:33) - SaXParser start to parse..
+INFO  | 2021-07-12 22:26:04 | [main] handler.DeviceHandler (DeviceHandler.java:38) - SaXParser end to parse..
+INFO  | 2021-07-12 22:26:04 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:42) - files/devices.xml
+INFO  | 2021-07-12 22:26:04 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:48) - StaX parser start to parse
+INFO  | 2021-07-12 22:26:04 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:95) - StaX parser finish parsing
+INFO  | 2021-07-12 22:26:54 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:38) - files/devices.xml
+INFO  | 2021-07-12 22:26:54 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
+INFO  | 2021-07-12 22:26:54 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:53) - Parsing finished.
+INFO  | 2021-07-12 22:26:54 | [main] handler.DeviceHandler (DeviceHandler.java:33) - SaXParser start to parse..
+INFO  | 2021-07-12 22:26:54 | [main] handler.DeviceHandler (DeviceHandler.java:38) - SaXParser end to parse..
+INFO  | 2021-07-12 22:26:54 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:43) - files/devices.xml
+INFO  | 2021-07-12 22:26:54 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:49) - StaX parser start to parse
+INFO  | 2021-07-12 22:26:54 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:96) - StaX parser finish parsing
+INFO  | 2021-07-12 22:31:37 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:39) - devices.xml
+INFO  | 2021-07-12 22:34:24 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:38) - devices.xml
+INFO  | 2021-07-12 22:34:24 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
+INFO  | 2021-07-12 22:34:24 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:53) - Parsing finished.
+INFO  | 2021-07-12 22:35:04 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:38) - devices.xml
+INFO  | 2021-07-12 22:35:04 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
+INFO  | 2021-07-12 22:35:04 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:53) - Parsing finished.
+INFO  | 2021-07-12 22:36:24 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:38) - devices.xml
+INFO  | 2021-07-12 22:36:24 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
+INFO  | 2021-07-12 22:36:24 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:53) - Parsing finished.
+INFO  | 2021-07-12 22:36:24 | [main] handler.DeviceHandler (DeviceHandler.java:33) - SaXParser start to parse..
+INFO  | 2021-07-12 22:37:25 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:38) - devices.xml
+INFO  | 2021-07-12 22:37:25 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
+INFO  | 2021-07-12 22:37:25 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:53) - Parsing finished.
+INFO  | 2021-07-12 22:37:25 | [main] impl.SaXXmlParserImpl (SaXXmlParserImpl.java:21) - devices.xml
+INFO  | 2021-07-12 22:37:25 | [main] handler.DeviceHandler (DeviceHandler.java:33) - SaXParser start to parse..
+INFO  | 2021-07-12 22:37:25 | [main] handler.DeviceHandler (DeviceHandler.java:38) - SaXParser end to parse..
+INFO  | 2021-07-12 22:37:25 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:43) - devices.xml
+INFO  | 2021-07-12 22:37:25 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:50) - StaX parser start to parse
+INFO  | 2021-07-12 22:37:25 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:97) - StaX parser finish parsing
+INFO  | 2021-07-12 22:38:16 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:38) - devices.xml
+INFO  | 2021-07-12 22:38:16 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
+INFO  | 2021-07-12 22:38:16 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:53) - Parsing finished.
+INFO  | 2021-07-12 22:38:16 | [main] impl.SaXXmlParserImpl (SaXXmlParserImpl.java:22) - devices.xml
+INFO  | 2021-07-12 22:38:16 | [main] handler.DeviceHandler (DeviceHandler.java:33) - SaXParser start to parse..
+INFO  | 2021-07-12 22:38:31 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:38) - devices.xml
+INFO  | 2021-07-12 22:38:31 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
+INFO  | 2021-07-12 22:38:31 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:53) - Parsing finished.
+INFO  | 2021-07-12 22:38:31 | [main] impl.SaXXmlParserImpl (SaXXmlParserImpl.java:21) - devices.xml
+INFO  | 2021-07-12 22:38:31 | [main] handler.DeviceHandler (DeviceHandler.java:33) - SaXParser start to parse..
+INFO  | 2021-07-12 22:38:31 | [main] handler.DeviceHandler (DeviceHandler.java:38) - SaXParser end to parse..
+INFO  | 2021-07-12 22:38:31 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:43) - devices.xml
+INFO  | 2021-07-12 22:38:31 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:50) - StaX parser start to parse
+INFO  | 2021-07-12 22:38:31 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:97) - StaX parser finish parsing
+INFO  | 2021-07-12 22:45:59 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:38) - devices.xml
+INFO  | 2021-07-12 22:45:59 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
+INFO  | 2021-07-12 22:45:59 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:53) - Parsing finished.
+INFO  | 2021-07-12 22:45:59 | [main] impl.SaXXmlParserImpl (SaXXmlParserImpl.java:21) - Using file: devices.xml
+INFO  | 2021-07-12 22:45:59 | [main] handler.DeviceHandler (DeviceHandler.java:33) - SaXParser start to parse..
+INFO  | 2021-07-12 22:45:59 | [main] handler.DeviceHandler (DeviceHandler.java:38) - SaXParser end to parse..
+INFO  | 2021-07-12 22:45:59 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:43) - devices.xml
+INFO  | 2021-07-12 22:45:59 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:50) - StaX parser start to parse
+INFO  | 2021-07-12 22:45:59 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:97) - StaX parser finish parsing
+INFO  | 2021-07-12 22:50:06 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:38) - Using file: devices.xml
+INFO  | 2021-07-12 22:50:06 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
+INFO  | 2021-07-12 22:50:06 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:53) - Parsing finished.
+INFO  | 2021-07-12 22:50:06 | [main] impl.SaXXmlParserImpl (SaXXmlParserImpl.java:21) - Using file: devices.xml
+INFO  | 2021-07-12 22:50:06 | [main] handler.DeviceHandler (DeviceHandler.java:33) - SaXParser start to parse..
+INFO  | 2021-07-12 22:50:06 | [main] handler.DeviceHandler (DeviceHandler.java:38) - SaXParser end to parse..
+INFO  | 2021-07-12 22:50:06 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:43) - Using file: devices.xml
+INFO  | 2021-07-12 22:50:06 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:50) - StaX parser start to parse
+INFO  | 2021-07-12 22:50:06 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:92) - StaX parser finish parsing

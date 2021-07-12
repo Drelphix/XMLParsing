@@ -4,18 +4,18 @@ import by.demeshko.xmlparser.entity.types.GroupOfComponents;
 import by.demeshko.xmlparser.entity.types.Port;
 import by.demeshko.xmlparser.exception.DeviceException;
 
-import java.util.Objects;
+import java.time.LocalDate;
 
-public class Videocard extends Device { //TODO 10.07.2021 14:29 :
+public class Videocard extends Device {
     private int energyConsumption;
     private boolean cooler;
     private Port outputPort;
     private int hashRate;
 
-    public Videocard(String id, String deviceName, String origin, int price, boolean critical,
+    public Videocard(String id, LocalDate date, String deviceName, String origin, int price, boolean critical,
                      boolean peripheral, GroupOfComponents groupOfComponents, int energyConsumption,
                      boolean cooler, Port outputPort, int hashRate) {
-        super(id, deviceName, origin, price, critical, peripheral, groupOfComponents);
+        super(id, date, deviceName, origin, price, critical, peripheral, groupOfComponents);
         this.energyConsumption = energyConsumption;
         this.cooler = cooler;
         this.outputPort = outputPort;
@@ -65,16 +65,24 @@ public class Videocard extends Device { //TODO 10.07.2021 14:29 :
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Videocard videoCard = (Videocard) o;
-        return energyConsumption == videoCard.energyConsumption &&
-                cooler == videoCard.cooler && hashRate == videoCard.hashRate &&
-                outputPort.equals(videoCard.outputPort);
+        if (!super.equals(o)) return false;
+
+        Videocard videocard = (Videocard) o;
+
+        if (energyConsumption != videocard.energyConsumption) return false;
+        if (cooler != videocard.cooler) return false;
+        if (hashRate != videocard.hashRate) return false;
+        return outputPort == videocard.outputPort;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(energyConsumption, cooler,
-                outputPort, hashRate);
+        int result = super.hashCode();
+        result = 31 * result + energyConsumption;
+        result = 31 * result + (cooler ? 1 : 0);
+        result = 31 * result + (outputPort != null ? outputPort.hashCode() : 0);
+        result = 31 * result + hashRate;
+        return result;
     }
 
     @Override
@@ -95,6 +103,11 @@ public class Videocard extends Device { //TODO 10.07.2021 14:29 :
 
         public Videocard.Builder setId(String id) {
             Videocard.this.setId(id);
+            return this;
+        }
+
+        public Videocard.Builder setDate(LocalDate date) {
+            Videocard.this.setDate(date);
             return this;
         }
 

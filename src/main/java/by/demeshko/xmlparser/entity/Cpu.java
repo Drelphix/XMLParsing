@@ -5,6 +5,8 @@ import by.demeshko.xmlparser.entity.types.CpuSocket;
 import by.demeshko.xmlparser.entity.types.GroupOfComponents;
 import by.demeshko.xmlparser.exception.DeviceException;
 
+import java.time.LocalDate;
+
 public class Cpu extends Device {
     private double energyConsumption;
     private CpuSocket cpuSocket;
@@ -12,6 +14,7 @@ public class Cpu extends Device {
 
     public Cpu(String id,
                String deviceName,
+               LocalDate date,
                String origin,
                int price,
                boolean critical,
@@ -21,7 +24,7 @@ public class Cpu extends Device {
                CpuSocket cpuSocket,
                CpuArchitecture cpuArchitecture) {
 
-        super(id, deviceName, origin, price, critical, peripheral, groupOfComponents);
+        super(id, date, deviceName, origin, price, critical, peripheral, groupOfComponents);
         this.energyConsumption = energyConsumption;
         this.cpuSocket = cpuSocket;
         this.cpuArchitecture = cpuArchitecture;
@@ -65,26 +68,24 @@ public class Cpu extends Device {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+
         Cpu cpu = (Cpu) o;
-        return Double.compare(cpu.energyConsumption, energyConsumption) == 0
-                && cpuSocket == cpu.cpuSocket
-                && cpuArchitecture == cpu.cpuArchitecture
-                && this.getId().equals(cpu.getId())
-                && this.getDeviceName().equals(cpu.getDeviceName())
-                && this.getOrigin().equals(cpu.getOrigin())
-                && this.getPrice() == cpu.getPrice()
-                && this.isCritical() == cpu.isCritical()
-                && this.isPeripheral() == cpu.isPeripheral()
-                && this.getGroupOfComponents().equals(cpu.getGroupOfComponents());
+
+        if (Double.compare(cpu.energyConsumption, energyConsumption) != 0) return false;
+        if (cpuSocket != cpu.cpuSocket) return false;
+        return cpuArchitecture == cpu.cpuArchitecture;
     }
 
     @Override
     public int hashCode() {
-        int hashcode = super.hashCode();
-        hashcode = hashcode * (int) energyConsumption;
-        hashcode = hashcode * cpuSocket.hashCode();
-        hashcode = hashcode * cpuArchitecture.hashCode();
-        return hashcode;
+        int result = super.hashCode();
+        long temp;
+        temp = Double.doubleToLongBits(energyConsumption);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        result = 31 * result + (cpuSocket != null ? cpuSocket.hashCode() : 0);
+        result = 31 * result + (cpuArchitecture != null ? cpuArchitecture.hashCode() : 0);
+        return result;
     }
 
     @Override
@@ -105,6 +106,11 @@ public class Cpu extends Device {
 
         public Builder setId(String id) {
             Cpu.this.setId(id);
+            return this;
+        }
+
+        public Builder setDate(LocalDate date) {
+            Cpu.this.setDate(date);
             return this;
         }
 

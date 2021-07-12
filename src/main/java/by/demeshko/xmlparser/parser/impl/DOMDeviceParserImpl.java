@@ -20,24 +20,25 @@ import org.xml.sax.SAXException;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import java.io.File;
 import java.io.IOException;
+import java.time.LocalDate;
 
 import static by.demeshko.xmlparser.parser.XMLTag.*;
 
 public class DOMDeviceParserImpl implements DeviceParser {
+    private static final Logger logger = LogManager.getLogger();
     private static final int DEFAULT_POSITION = 0;
     private static final String INCORRECT_PARAMETER_ERROR = "Input parameter is not correct";
-    private static final Logger logger = LogManager.getLogger();
+
     private static final String HYPHEN = "-";
     private static final String UNDERSCORE = "_";
 
     @Override
     public void parseDevices(String xmlFilePath) throws DeviceException {
-        logger.info(xmlFilePath.equals("") ?
+        logger.info("Using file: " + (xmlFilePath.equals("") ?
                 xmlFilePath = DOMDeviceParserImpl.PATH_TO_XML :
-                "Using path: " + xmlFilePath);
-        File xmlFile = new File(xmlFilePath);
+                xmlFilePath));
+        String xmlFile = ClassLoader.getSystemClassLoader().getResource(xmlFilePath).getFile();
         try {
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = documentBuilderFactory.newDocumentBuilder();
@@ -61,7 +62,9 @@ public class DOMDeviceParserImpl implements DeviceParser {
         for (int i = 0; i < cpuList.getLength(); i++) {
             Element cpuElement = (Element) cpuList.item(i);
             try {
-                Cpu cpu = Cpu.newBuilder().setId(cpuElement.getAttribute(XMLAttributes.ID.name()))
+                Cpu cpu = Cpu.newBuilder()
+                        .setId(cpuElement.getAttribute(XMLAttributes.ID.name().toLowerCase()))
+                        .setDate(LocalDate.parse(cpuElement.getAttribute(XMLAttributes.DATE.getValue()).toLowerCase()))
                         .setDeviceName(getContent(cpuElement, DEVICE_NAME.name()))
                         .setCpuArchitecture(CpuArchitecture.valueOf(getContent(cpuElement, ARCHITECTURE.name())))
                         .setCpuSocket(CpuSocket.valueOf(getContent(cpuElement, CPU_SOCKET.name())))
@@ -85,7 +88,8 @@ public class DOMDeviceParserImpl implements DeviceParser {
             Element videoCardElement = (Element) videoCards.item(i);
             try {
                 Videocard videoCard = Videocard.newBuilder()
-                        .setId(videoCardElement.getAttribute(XMLAttributes.ID.name()))
+                        .setId(videoCardElement.getAttribute(XMLAttributes.ID.name().toLowerCase()))
+                        .setDate(LocalDate.parse(videoCardElement.getAttribute(XMLAttributes.DATE.getValue()).toLowerCase()))
                         .setDeviceName(getContent(videoCardElement, DEVICE_NAME.name()))
                         .setCritical(Boolean.parseBoolean(getContent(videoCardElement, CRITICAL.name())))
                         .setEnergyConsumption(Integer.parseInt(getContent(videoCardElement, POWER_CONSUMPTION.name())))
@@ -110,7 +114,8 @@ public class DOMDeviceParserImpl implements DeviceParser {
             Element motherboardElement = (Element) motherboards.item(i);
             try {
                 Motherboard motherboard = Motherboard.newBuilder()
-                        .setId(motherboardElement.getAttribute(XMLAttributes.ID.name()))
+                        .setId(motherboardElement.getAttribute(XMLAttributes.ID.name().toLowerCase()))
+                        .setDate(LocalDate.parse(motherboardElement.getAttribute(XMLAttributes.DATE.getValue()).toLowerCase()))
                         .setDeviceName(getContent(motherboardElement, DEVICE_NAME.name()))
                         .setCritical(Boolean.parseBoolean(getContent(motherboardElement, CRITICAL.name())))
                         .setGroupOfComponents(GroupOfComponents.valueOf(getContent(motherboardElement, COMPONENT_GROUP.name())))

@@ -1,10 +1,11 @@
 package by.demeshko.xmlparser.parser;
 
 public enum XMLAttributes {
-    ID("id");
+    ID("id"),
+    DATE("date");
 
 
-    private String value;
+    private final String value;
 
     XMLAttributes(String value) {
         this.value = value;

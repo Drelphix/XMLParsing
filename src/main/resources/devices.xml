@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <devices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="devices.xsd">
-    <cpu id="a0001">
+    <cpu id="a0001" date="1980-03-23">
         <device-name>Intel Pentium G6400</device-name>
         <origin>China</origin>
         <price>220</price>
@@ -11,7 +11,7 @@
         <cpu-socket>LGA1200</cpu-socket>
         <architecture>SANDY_BRIDGE</architecture>
     </cpu>
-    <motherboard id="a0002">
+    <motherboard id="a0002" date="1990-03-23">
         <device-name>ASUS H110</device-name>
         <origin>Sweden</origin>
         <price>611</price>
@@ -22,7 +22,7 @@
         <memory-type>DDR3</memory-type>
         <sata>6</sata>
     </motherboard>
-    <cpu id="a0003">
+    <cpu id="a0003" date="2000-03-23">
         <device-name>Intel i5-3470</device-name>
         <origin>Europe</origin>
         <price>2684</price>
@@ -33,7 +33,7 @@
         <cpu-socket>LGA1151</cpu-socket>
         <architecture>SKYLAKE</architecture>
     </cpu>
-    <videocard id="a0004">
+    <videocard id="a0004" date="2000-05-23">
         <device-name>Geforce 210</device-name>
         <origin>Belarus</origin>
         <price>7028</price>
@@ -45,7 +45,7 @@
         <output-port>DVI</output-port>
         <hashrate>180</hashrate>
     </videocard>
-    <cpu id="a0005">
+    <cpu id="a0005" date="2005-05-23">
         <device-name>AMD A-10</device-name>
         <origin>China</origin>
         <price>2601</price>
@@ -56,7 +56,7 @@
         <cpu-socket>FM2</cpu-socket>
         <architecture>CANNON_LAKE</architecture>
     </cpu>
-    <motherboard id="a0006">
+    <motherboard id="a0006" date="2005-05-15">
         <device-name>ASROCK H410</device-name>
         <origin>China</origin>
         <price>563</price>
@@ -67,7 +67,7 @@
         <memory-type>DDR5</memory-type>
         <sata>6</sata>
     </motherboard>
-    <cpu id="a0007">
+    <cpu id="a0007" date="2005-05-10">
         <device-name>AMD Ryzen H4800</device-name>
         <origin>Europe</origin>
         <price>696</price>
@@ -78,7 +78,7 @@
         <cpu-socket>LGA1151</cpu-socket>
         <architecture>CANNON_LAKE</architecture>
     </cpu>
-    <cpu id="a0008">
+    <cpu id="a0008" date="2015-07-15">
         <device-name>Intel Pentium 200</device-name>
         <origin>USA</origin>
         <price>536</price>
@@ -89,7 +89,7 @@
         <cpu-socket>LGA1151</cpu-socket>
         <architecture>SANDY_BRIDGE</architecture>
     </cpu>
-    <motherboard id="a0009">
+    <motherboard id="a0009" date="2015-08-15">
         <device-name>Asus Tuf Gaming h540</device-name>
         <origin>Taiwan</origin>
         <price>9779</price>
@@ -100,7 +100,7 @@
         <memory-type>DDR2</memory-type>
         <sata>4</sata>
     </motherboard>
-    <motherboard id="a0010">
+    <motherboard id="a0010" date="2015-01-15">
         <device-name>BeatGaming F14</device-name>
         <origin>Russia</origin>
         <price>877</price>
@@ -111,7 +111,7 @@
         <memory-type>DDR3</memory-type>
         <sata>1</sata>
     </motherboard>
-    <cpu id="a0011">
+    <cpu id="a0011" date="2011-07-15">
         <device-name>string</device-name>
         <origin>Taiwan</origin>
         <price>9939</price>
@@ -122,7 +122,7 @@
         <cpu-socket>LGA1151</cpu-socket>
         <architecture>SANDY_BRIDGE</architecture>
     </cpu>
-    <cpu id="a0012">
+    <cpu id="a0012" date="2010-07-15">
         <device-name>Intel Mention S491</device-name>
         <origin>USA</origin>
         <price>3431</price>
@@ -133,7 +133,7 @@
         <cpu-socket>LGA1156</cpu-socket>
         <architecture>CANNON_LAKE</architecture>
     </cpu>
-    <motherboard id="a0013">
+    <motherboard id="a0013" date="2021-07-15">
         <device-name>Wow gaming h1520</device-name>
         <origin>Japan</origin>
         <price>171</price>
@@ -144,7 +144,7 @@
         <memory-type>DDR1</memory-type>
         <sata>4</sata>
     </motherboard>
-    <videocard id="a00014">
+    <videocard id="a00014" date="2021-08-15">
         <device-name>Geforce 410</device-name>
         <origin>Russia</origin>
         <price>1028</price>
@@ -156,7 +156,7 @@
         <output-port>VGA</output-port>
         <hashrate>60</hashrate>
     </videocard>
-    <videocard id="a00015">
+    <videocard id="a00015" date="2021-01-15">
         <device-name>Asus Rog Strix 3060</device-name>
         <origin>Korea</origin>
         <price>17028</price>
@@ -168,7 +168,7 @@
         <output-port>DVI</output-port>
         <hashrate>400</hashrate>
     </videocard>
-    <videocard id="a00016">
+    <videocard id="a00016" date="2021-07-31">
         <device-name>Radeon HD5400</device-name>
         <origin>China</origin>
         <price>528</price>
@@ -180,7 +180,7 @@
         <output-port>VGA</output-port>
         <hashrate>220</hashrate>
     </videocard>
-    <videocard id="a00017">
+    <videocard id="a00017" date="2021-01-15">
         <device-name>Geforce 560</device-name>
         <origin>Europe</origin>
         <price>5500</price>

@@ -16,24 +16,26 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
+import java.time.LocalDate;
+
 public class DeviceHandler extends DefaultHandler {
     private static final Logger logger = LogManager.getLogger();
+    private static final String HYPHEN = "-";
+    private static final String UNDERSCORE = "_";
     private Cpu.Builder cpuBuilder;
     private Videocard.Builder videocardBuilder;
     private Motherboard.Builder motherboardBuilder;
     private XMLTag currentDeviceTag;
-    private static final String HYPHEN = "-";
-    private static final String UNDERSCORE = "_";
+    private XMLTag deviceType;
 
     @Override
     public void startDocument() throws SAXException {
         logger.info("SaXParser start to parse..");
-        super.startDocument();
     }
 
     @Override
     public void endDocument() throws SAXException {
-        super.endDocument();
+        logger.info("SaXParser end to parse..");
     }
 
     @Override
@@ -43,20 +45,24 @@ public class DeviceHandler extends DefaultHandler {
             case CPU -> {
                 this.cpuBuilder = Cpu.newBuilder();
                 this.cpuBuilder.setId(attributes.getValue(XMLAttributes.ID.getValue()));
-                this.currentDeviceTag = XMLTag.CPU;
+                this.cpuBuilder.setDate(LocalDate.parse(attributes.getValue(XMLAttributes.DATE.getValue())));
+                this.deviceType = XMLTag.CPU;
             }
             case MOTHERBOARD -> {
                 this.motherboardBuilder = Motherboard.newBuilder();
                 this.motherboardBuilder.setId(attributes.getValue(XMLAttributes.ID.getValue()));
-                this.currentDeviceTag = XMLTag.MOTHERBOARD;
+                this.motherboardBuilder.setDate(LocalDate.parse(attributes.getValue(XMLAttributes.DATE.getValue())));
+                this.deviceType = XMLTag.MOTHERBOARD;
             }
             case VIDEOCARD -> {
                 this.videocardBuilder = Videocard.newBuilder();
-                this.motherboardBuilder.setId(attributes.getValue(XMLAttributes.ID.getValue()));
-                this.currentDeviceTag = XMLTag.VIDEOCARD;
+                this.videocardBuilder.setDate(LocalDate.parse(attributes.getValue(XMLAttributes.DATE.getValue())));
+                this.videocardBuilder.setId(attributes.getValue(XMLAttributes.ID.getValue()));
+                this.deviceType = XMLTag.VIDEOCARD;
             }
             default -> this.currentDeviceTag = tag;
         }
+
     }
 
     @Override
@@ -73,12 +79,11 @@ public class DeviceHandler extends DefaultHandler {
 
     @Override
     public void characters(char[] ch, int start, int length) throws SAXException {
-        super.characters(ch, start, length);
         String deviceParam = new String(ch, start, length);
         deviceParam = deviceParam.replace("\n", "").trim();
         try {
-            if (!deviceParam.isEmpty()) {
-                switch (this.currentDeviceTag) {
+            if (!deviceParam.isEmpty() && this.deviceType != null) {
+                switch (this.deviceType) {
                     case CPU -> setCpu(deviceParam);
                     case MOTHERBOARD -> setMotherboard(deviceParam);
                     case VIDEOCARD -> setVideocard(deviceParam);
@@ -155,7 +160,7 @@ public class DeviceHandler extends DefaultHandler {
         }
     }
 
-    private String replaceXmlTag(String tag){
+    private String replaceXmlTag(String tag) {
         return tag.toUpperCase().replace(HYPHEN, UNDERSCORE);
     }
 }

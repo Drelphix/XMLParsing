@@ -4,6 +4,7 @@ import by.demeshko.xmlparser.exception.DeviceException;
 import by.demeshko.xmlparser.parser.DeviceParser;
 import by.demeshko.xmlparser.parser.impl.DOMDeviceParserImpl;
 import by.demeshko.xmlparser.parser.impl.SaXXmlParserImpl;
+import by.demeshko.xmlparser.parser.impl.StaXXmlParserImpl;
 import by.demeshko.xmlparser.repository.DeviceRepository;
 import by.demeshko.xmlparser.repository.impl.DeviceRepositoryImpl;
 
@@ -20,6 +21,13 @@ public class Application {
         DeviceParser saxDeviceParser = new SaXXmlParserImpl();
         saxDeviceParser.parseDevices("");
         System.out.println("List of devices by SaX parser:");
+        for (int i = 0; i < deviceRepository.size(); i++) {
+            System.out.println(deviceRepository.get(i));
+        }
+        deviceRepository.removeAll();
+        DeviceParser staxDeviceParser = new StaXXmlParserImpl();
+        staxDeviceParser.parseDevices("");
+        System.out.println("List of devices by StAX parser");
         for (int i = 0; i < deviceRepository.size(); i++) {
             System.out.println(deviceRepository.get(i));
         }

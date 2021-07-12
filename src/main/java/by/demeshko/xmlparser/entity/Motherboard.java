@@ -5,6 +5,8 @@ import by.demeshko.xmlparser.entity.types.GroupOfComponents;
 import by.demeshko.xmlparser.entity.types.MemoryType;
 import by.demeshko.xmlparser.exception.DeviceException;
 
+import java.time.LocalDate;
+
 public class Motherboard extends Device {
     private CpuSocket socket;
     private MemoryType memoryType;
@@ -13,10 +15,10 @@ public class Motherboard extends Device {
     private Motherboard() {
     }
 
-    public Motherboard(String id, String deviceName, String origin, int price,
+    public Motherboard(String id, LocalDate date, String deviceName, String origin, int price,
                        boolean critical, boolean peripheral, GroupOfComponents groupOfComponents,
                        CpuSocket socket, MemoryType memoryType, int outputPorts) {
-        super(id, deviceName, origin, price, critical, peripheral, groupOfComponents);
+        super(id, date, deviceName, origin, price, critical, peripheral, groupOfComponents);
         this.socket = socket;
         this.memoryType = memoryType;
         this.sata = outputPorts;
@@ -58,19 +60,21 @@ public class Motherboard extends Device {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
-        Motherboard motherboard = (Motherboard) o;
-        return sata == motherboard.sata
-                && socket == motherboard.socket
-                && memoryType == motherboard.memoryType;
+
+        Motherboard that = (Motherboard) o;
+
+        if (sata != that.sata) return false;
+        if (socket != that.socket) return false;
+        return memoryType == that.memoryType;
     }
 
     @Override
     public int hashCode() {
-        int hashcode = super.hashCode();
-        hashcode = hashcode * this.socket.hashCode();
-        hashcode = hashcode * this.memoryType.hashCode();
-        hashcode = hashcode * this.sata;
-        return hashcode;
+        int result = super.hashCode();
+        result = 31 * result + (socket != null ? socket.hashCode() : 0);
+        result = 31 * result + (memoryType != null ? memoryType.hashCode() : 0);
+        result = 31 * result + sata;
+        return result;
     }
 
     @Override
@@ -91,6 +95,11 @@ public class Motherboard extends Device {
 
         public Motherboard.Builder setId(String id) {
             Motherboard.this.setId(id);
+            return this;
+        }
+
+        public Motherboard.Builder setDate(LocalDate date) {
+            Motherboard.this.setDate(date);
             return this;
         }
 

@@ -3,8 +3,11 @@ package by.demeshko.xmlparser.entity;
 import by.demeshko.xmlparser.entity.types.GroupOfComponents;
 import by.demeshko.xmlparser.exception.DeviceException;
 
+import java.time.LocalDate;
+
 public abstract class Device {
     private String id;
+    private LocalDate date;
     private String deviceName;
     private String origin;
     private int price;
@@ -12,11 +15,12 @@ public abstract class Device {
     private boolean peripheral;
     private GroupOfComponents groupOfComponents;
 
-    public Device() {
+    protected Device() {
     }
 
-    public Device(String id, String deviceName, String origin, int price, boolean critical, boolean peripheral, GroupOfComponents groupOfComponents) {
+    protected Device(String id, LocalDate date, String deviceName, String origin, int price, boolean critical, boolean peripheral, GroupOfComponents groupOfComponents) {
         this.id = id;
+        this.date = date;
         this.deviceName = deviceName;
         this.origin = origin;
         this.price = price;
@@ -31,6 +35,14 @@ public abstract class Device {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
     }
 
     public String getDeviceName() {
@@ -88,33 +100,37 @@ public abstract class Device {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+
         Device device = (Device) o;
-        return price == device.price
-                && critical == device.critical
-                && peripheral == device.peripheral
-                && id.equals(device.id)
-                && deviceName.equals(device.deviceName)
-                && origin.equals(device.origin)
-                && groupOfComponents == device.groupOfComponents;
+
+        if (price != device.price) return false;
+        if (critical != device.critical) return false;
+        if (peripheral != device.peripheral) return false;
+        return groupOfComponents == device.groupOfComponents &&
+                id.equals(device.id) &&
+                date.equals(device.date) &&
+                deviceName.equals(device.deviceName) &&
+                origin.equals(device.origin);
     }
 
     @Override
     public int hashCode() {
-        int hashcode = 40;
-        hashcode = hashcode * this.id.hashCode();
-        hashcode = hashcode * this.deviceName.hashCode();
-        hashcode = hashcode * this.origin.hashCode();
-        hashcode = hashcode * this.price;
-        hashcode = hashcode * (this.critical ? 40 : 20);
-        hashcode = hashcode * (this.peripheral ? 40 : 20);
-        hashcode = hashcode * this.groupOfComponents.hashCode();
-        return hashcode;
+        int result = id != null ? id.hashCode() : 0;
+        result = 31 * result + (date != null ? date.hashCode() : 0);
+        result = 31 * result + (deviceName != null ? deviceName.hashCode() : 0);
+        result = 31 * result + (origin != null ? origin.hashCode() : 0);
+        result = 31 * result + price;
+        result = 31 * result + (critical ? 1 : 0);
+        result = 31 * result + (peripheral ? 1 : 0);
+        result = 31 * result + (groupOfComponents != null ? groupOfComponents.hashCode() : 0);
+        return result;
     }
 
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("id = ").append(id)
+                .append(", date = ").append(date)
                 .append(", deviceName = ").append(deviceName)
                 .append(", origin = ").append(origin)
                 .append(", price = ").append(price)

@@ -1,7 +1,6 @@
 package by.demeshko.xmlparser.entity.types;
 
-public enum CpuArchitecture { //TODO 11.07.2021 23:07 : fix names
-    BROADWELL("Broadwell"),
+public enum CpuArchitecture {
     HASWELL("Haswell"),
     SANDY_BRIDGE("Sandy Bridge"),
     CANNON_LAKE("Cannon Lake"),
