@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
     <xsd:element name="devices" type="Devices"/>
     <xsd:element name="device" type="Device"/>
-    <xsd:element name="videoCard" type="VideoCard" substitutionGroup="device"/>
+    <xsd:element name="videocard" type="Videocard" substitutionGroup="device"/>
     <xsd:element name="cpu" type="Cpu" substitutionGroup="device"/>
     <xsd:element name="motherboard" type="Motherboard" substitutionGroup="device"/>
 
-        <xsd:complexType name="Devices">
-            <xsd:sequence>
-                <xsd:element ref="device" minOccurs="10" maxOccurs="unbounded" />
-            </xsd:sequence>
-        </xsd:complexType>
+    <xsd:complexType name="Devices">
+        <xsd:sequence>
+            <xsd:element ref="device" minOccurs="10" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
 
-        <xsd:complexType name="Device" abstract="true">
-            <xsd:sequence>
-                <xsd:element name="deviceName" type="xsd:string"/>
-                <xsd:element name="origin" type="Origin"/>
-                <xsd:element name="price" type="xsd:positiveInteger"/>
-                <xsd:element name="critical" type="xsd:boolean"/>
-                <xsd:element name="peripheral" type="xsd:boolean"/>
-                <xsd:element name="groupOfComponents" type="GroupOfComponents"/>
-            </xsd:sequence>
-                <xsd:attribute name="id" use="required" type="xsd:ID"/>
-        </xsd:complexType>
+    <xsd:complexType name="Device" abstract="true">
+        <xsd:sequence>
+            <xsd:element name="device-name" type="xsd:string"/>
+            <xsd:element name="origin" type="Origin"/>
+            <xsd:element name="price" type="xsd:positiveInteger"/>
+            <xsd:element name="critical" type="xsd:boolean"/>
+            <xsd:element name="peripheral" type="xsd:boolean"/>
+            <xsd:element name="component-group" type="GroupOfComponents"/>
+        </xsd:sequence>
+        <xsd:attribute name="id" use="required" type="xsd:ID"/>
+    </xsd:complexType>
 
-        <xsd:complexType name="VideoCard">
-            <xsd:complexContent>
-                <xsd:extension base="Device">
-                    <xsd:sequence>
-                        <xsd:element name="powerConsumption" type="EnergyConsumption"/>
-                        <xsd:element name="cooler" type="xsd:boolean"/>
-                        <xsd:element name="outputPort" type="Port"/>
-                        <xsd:element name="hashRate" type="xsd:positiveInteger"/>
-                    </xsd:sequence>
-                </xsd:extension>
-            </xsd:complexContent>
-        </xsd:complexType>
+    <xsd:complexType name="Videocard">
+        <xsd:complexContent>
+            <xsd:extension base="Device">
+                <xsd:sequence>
+                    <xsd:element name="power-consumption" type="EnergyConsumption"/>
+                    <xsd:element name="cooler" type="xsd:boolean"/>
+                    <xsd:element name="output-port" type="Port"/>
+                    <xsd:element name="hashrate" type="xsd:positiveInteger"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
 
     <xsd:complexType name="Motherboard">
         <xsd:complexContent>
             <xsd:extension base="Device">
                 <xsd:sequence>
-                    <xsd:element name="cpuSocket" type="CpuSocket"/>
-                    <xsd:element name="memoryType" type="Memory"/>
+                    <xsd:element name="cpu-socket" type="CpuSocket"/>
+                    <xsd:element name="memory-type" type="Memory"/>
                     <xsd:element name="sata" type="xsd:positiveInteger" default="4"/>
                 </xsd:sequence>
             </xsd:extension>
@@ -54,26 +54,26 @@
         <xsd:complexContent>
             <xsd:extension base="Device">
                 <xsd:sequence>
-                    <xsd:element name="powerConsumption" type="EnergyConsumption"/>
-                    <xsd:element name="cpuSocket" type="CpuSocket"/>
+                    <xsd:element name="power-consumption" type="EnergyConsumption"/>
+                    <xsd:element name="cpu-socket" type="CpuSocket"/>
                     <xsd:element name="architecture" type="Architecture"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
 
-                    <xsd:simpleType name="Port">
-                        <xsd:restriction base="xsd:string">
-                            <xsd:enumeration value="COM"/>
-                            <xsd:enumeration value="LPT"/>
-                            <xsd:enumeration value="USB"/>
-                            <xsd:enumeration value="PS/2"/>
-                            <xsd:enumeration value="DVI"/>
-                            <xsd:enumeration value="SATA"/>
-                            <xsd:enumeration value="PCI-E"/>
-                            <xsd:enumeration value="VGA"/>
-                        </xsd:restriction>
-                    </xsd:simpleType>
+    <xsd:simpleType name="Port">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="COM"/>
+            <xsd:enumeration value="LPT"/>
+            <xsd:enumeration value="USB"/>
+            <xsd:enumeration value="PS/2"/>
+            <xsd:enumeration value="DVI"/>
+            <xsd:enumeration value="SATA"/>
+            <xsd:enumeration value="PCI-E"/>
+            <xsd:enumeration value="VGA"/>
+        </xsd:restriction>
+    </xsd:simpleType>
 
 
     <xsd:simpleType name="EnergyConsumption">
@@ -84,55 +84,54 @@
     </xsd:simpleType>
 
 
-        <xsd:simpleType name="Memory">
-            <xsd:restriction base="xsd:string">
-                <xsd:enumeration value="DDR1"/>
-                <xsd:enumeration value="DDR2"/>
-                <xsd:enumeration value="DDR3"/>
-                <xsd:enumeration value="DDR4"/>
-                <xsd:enumeration value="DDR5"/>
-            </xsd:restriction>
-        </xsd:simpleType>
+    <xsd:simpleType name="Memory">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="DDR1"/>
+            <xsd:enumeration value="DDR2"/>
+            <xsd:enumeration value="DDR3"/>
+            <xsd:enumeration value="DDR4"/>
+            <xsd:enumeration value="DDR5"/>
+        </xsd:restriction>
+    </xsd:simpleType>
 
 
-        <xsd:simpleType name="CpuSocket">
-            <xsd:restriction base="xsd:string">
-                <xsd:enumeration value="LGA1200"/>
-                <xsd:enumeration value="LGA1151"/>
-                <xsd:enumeration value="AM4"/>
-                <xsd:enumeration value="FM2"/>
-                <xsd:enumeration value="LGA1156"/>
-            </xsd:restriction>
-        </xsd:simpleType>
+    <xsd:simpleType name="CpuSocket">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="LGA1200"/>
+            <xsd:enumeration value="LGA1151"/>
+            <xsd:enumeration value="AM4"/>
+            <xsd:enumeration value="FM2"/>
+            <xsd:enumeration value="LGA1156"/>
+        </xsd:restriction>
+    </xsd:simpleType>
 
 
-
-        <xsd:simpleType name="Architecture">
-            <xsd:restriction base="xsd:string">
-                <xsd:enumeration value="Broadwell"/>
-                <xsd:enumeration value="Haswell"/>
-                <xsd:enumeration value="Sandy Bridge"/>
-                <xsd:enumeration value="Cannon Lake"/>
-                <xsd:enumeration value="Skylake"/>
-            </xsd:restriction>
-        </xsd:simpleType>
-
-
-        <xsd:simpleType name="GroupOfComponents" >
-            <xsd:restriction base="xsd:string">
-                <xsd:enumeration value="IO Device"/>
-                <xsd:enumeration value="multimedia Device"/>
-                <xsd:enumeration value="component Device"/>
-                <xsd:enumeration value="storage Device"/>
-                <xsd:enumeration value="network Device"/>
-            </xsd:restriction>
-        </xsd:simpleType>
+    <xsd:simpleType name="Architecture">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="BROADWELL"/>
+            <xsd:enumeration value="HASSWELL"/>
+            <xsd:enumeration value="SANDY_BRIDGE"/>
+            <xsd:enumeration value="CANNON_LAKE"/>
+            <xsd:enumeration value="SKYLAKE"/>
+        </xsd:restriction>
+    </xsd:simpleType>
 
 
-        <xsd:simpleType name="Origin">
-            <xsd:restriction base="xsd:string">
-                <xsd:pattern value="[A-Z].+"/>
-            </xsd:restriction>
-        </xsd:simpleType>
+    <xsd:simpleType name="GroupOfComponents">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="IO_DEVICE"/>
+            <xsd:enumeration value="MULTIMEDIA_DEVICE"/>
+            <xsd:enumeration value="COMPONENT_DEVICE"/>
+            <xsd:enumeration value="STORAGE_DEVICE"/>
+            <xsd:enumeration value="NETWORK_DEVICE"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+
+    <xsd:simpleType name="Origin">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[A-Z].+"/>
+        </xsd:restriction>
+    </xsd:simpleType>
 
 </xsd:schema>

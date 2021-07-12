@@ -5,7 +5,7 @@ import by.demeshko.xmlparser.entity.types.CpuSocket;
 import by.demeshko.xmlparser.entity.types.GroupOfComponents;
 import by.demeshko.xmlparser.exception.DeviceException;
 
-public class Cpu extends Device{
+public class Cpu extends Device {
     private double energyConsumption;
     private CpuSocket cpuSocket;
     private CpuArchitecture cpuArchitecture;
@@ -27,14 +27,19 @@ public class Cpu extends Device{
         this.cpuArchitecture = cpuArchitecture;
     }
 
-    private Cpu() {}
+    private Cpu() {
+    }
+
+    public static Builder newBuilder() {
+        return new Cpu().new Builder();
+    }
 
     public double getEnergyConsumption() {
         return energyConsumption;
     }
 
     public void setEnergyConsumption(double energyConsumption) throws DeviceException {
-        if(energyConsumption < 0) {
+        if (energyConsumption < 0) {
             throw new DeviceException("Energy consumption can't be zero or less");
         }
         this.energyConsumption = energyConsumption;
@@ -93,24 +98,22 @@ public class Cpu extends Device{
         return stringBuilder.toString();
     }
 
-    public static Builder newBuilder() {
-        return new Cpu().new Builder();
-    }
+    public class Builder {
 
-    public class Builder{
-
-        private Builder(){
+        private Builder() {
         }
-        public Builder setId(String id){
+
+        public Builder setId(String id) {
             Cpu.this.setId(id);
             return this;
         }
 
-        public Builder setDeviceName(String deviceName){
+        public Builder setDeviceName(String deviceName) {
             Cpu.this.setDeviceName(deviceName);
             return this;
         }
-        public Builder setOrigin(String origin){
+
+        public Builder setOrigin(String origin) {
             Cpu.this.setOrigin(origin);
             return this;
         }
@@ -120,17 +123,17 @@ public class Cpu extends Device{
             return this;
         }
 
-        public Builder setCritical(boolean isCritical){
+        public Builder setCritical(boolean isCritical) {
             Cpu.this.setCritical(isCritical);
             return this;
         }
 
-        public Builder setPeripheral(boolean peripheral){
+        public Builder setPeripheral(boolean peripheral) {
             Cpu.this.setPeripheral(peripheral);
             return this;
         }
 
-        public Builder setGroupOfComponents(GroupOfComponents groupOfComponents){
+        public Builder setGroupOfComponents(GroupOfComponents groupOfComponents) {
             Cpu.this.setGroupOfComponents(groupOfComponents);
             return this;
         }
@@ -140,12 +143,12 @@ public class Cpu extends Device{
             return this;
         }
 
-        public Builder setCpuSocket(CpuSocket cpuSocket){
+        public Builder setCpuSocket(CpuSocket cpuSocket) {
             Cpu.this.setCpuSocket(cpuSocket);
             return this;
         }
 
-        public Builder setCpuArchitecture(CpuArchitecture cpuArchitecture){
+        public Builder setCpuArchitecture(CpuArchitecture cpuArchitecture) {
             Cpu.this.setCpuArchitecture(cpuArchitecture);
             return this;
         }
@@ -155,7 +158,6 @@ public class Cpu extends Device{
         }
 
     }
-
 
 
 }

@@ -5,12 +5,13 @@ import by.demeshko.xmlparser.entity.types.GroupOfComponents;
 import by.demeshko.xmlparser.entity.types.MemoryType;
 import by.demeshko.xmlparser.exception.DeviceException;
 
-public class Motherboard extends Device{
+public class Motherboard extends Device {
     private CpuSocket socket;
     private MemoryType memoryType;
     private int sata;
 
-    private Motherboard(){}
+    private Motherboard() {
+    }
 
     public Motherboard(String id, String deviceName, String origin, int price,
                        boolean critical, boolean peripheral, GroupOfComponents groupOfComponents,
@@ -19,6 +20,10 @@ public class Motherboard extends Device{
         this.socket = socket;
         this.memoryType = memoryType;
         this.sata = outputPorts;
+    }
+
+    public static Motherboard.Builder newBuilder() {
+        return new Motherboard().new Builder();
     }
 
     public CpuSocket getSocket() {
@@ -42,7 +47,7 @@ public class Motherboard extends Device{
     }
 
     public void setSata(int sata) throws DeviceException {
-        if(sata < 0){
+        if (sata < 0) {
             throw new DeviceException();
         }
         this.sata = sata;
@@ -79,24 +84,22 @@ public class Motherboard extends Device{
         return stringBuilder.toString();
     }
 
-    public static Motherboard.Builder newBuilder() {
-        return new Motherboard().new Builder();
-    }
+    public class Builder {
 
-    public class Builder{
-
-        private Builder(){
+        private Builder() {
         }
-        public Motherboard.Builder setId(String id){
+
+        public Motherboard.Builder setId(String id) {
             Motherboard.this.setId(id);
             return this;
         }
 
-        public Motherboard.Builder setDeviceName(String deviceName){
+        public Motherboard.Builder setDeviceName(String deviceName) {
             Motherboard.this.setDeviceName(deviceName);
             return this;
         }
-        public Motherboard.Builder setOrigin(String origin){
+
+        public Motherboard.Builder setOrigin(String origin) {
             Motherboard.this.setOrigin(origin);
             return this;
         }
@@ -106,27 +109,27 @@ public class Motherboard extends Device{
             return this;
         }
 
-        public Motherboard.Builder setCritical(boolean isCritical){
+        public Motherboard.Builder setCritical(boolean isCritical) {
             Motherboard.this.setCritical(isCritical);
             return this;
         }
 
-        public Motherboard.Builder setPeripheral(boolean peripheral){
+        public Motherboard.Builder setPeripheral(boolean peripheral) {
             Motherboard.this.setPeripheral(peripheral);
             return this;
         }
 
-        public Motherboard.Builder setGroupOfComponents(GroupOfComponents groupOfComponents){
+        public Motherboard.Builder setGroupOfComponents(GroupOfComponents groupOfComponents) {
             Motherboard.this.setGroupOfComponents(groupOfComponents);
             return this;
         }
 
-        public Motherboard.Builder setSocket(CpuSocket socket){
+        public Motherboard.Builder setSocket(CpuSocket socket) {
             Motherboard.this.setSocket(socket);
             return this;
         }
 
-        public Motherboard.Builder setMemory(MemoryType memoryType){
+        public Motherboard.Builder setMemory(MemoryType memoryType) {
             Motherboard.this.setMemory(memoryType);
             return this;
         }

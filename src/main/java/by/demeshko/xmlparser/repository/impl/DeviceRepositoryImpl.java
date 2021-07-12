@@ -7,14 +7,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DeviceRepositoryImpl implements DeviceRepository {
-    private List<Device> devices = new ArrayList<>();
     private static final DeviceRepository DEVICE_REPOSITORY = new DeviceRepositoryImpl();
+    private final List<Device> devices = new ArrayList<>();
 
-    private DeviceRepositoryImpl(){
-
+    private DeviceRepositoryImpl() {
     }
 
-    public static DeviceRepository getInstance(){
+    public static DeviceRepository getInstance() {
         return DEVICE_REPOSITORY;
     }
 
@@ -36,5 +35,9 @@ public class DeviceRepositoryImpl implements DeviceRepository {
 
     public Device set(int index, Device device) {
         return devices.set(index, device);
+    }
+
+    public void removeAll() {
+        devices.removeAll(devices);
     }
 }

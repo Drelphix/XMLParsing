@@ -8,5 +8,6 @@ public enum Port {
     DVI,
     HDMI,
     SATA,
-    PCI
+    PCI,
+    VGA
 }

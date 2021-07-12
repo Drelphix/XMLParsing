@@ -25,36 +25,6 @@ ERROR | 2021-07-10 14:24:47 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserIm
 INFO  | 2021-07-10 14:24:58 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - ./files/devices.xml
 INFO  | 2021-07-10 14:24:58 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
 INFO  | 2021-07-10 14:25:06 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - ./files/devices.xml
-INFO  | 2021-07-10 14:25:06 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
-INFO  | 2021-07-10 14:25:22 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - ./files/devices.xml
-INFO  | 2021-07-10 14:25:22 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
-INFO  | 2021-07-10 14:39:25 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:34) - ./files/devices.xml
-INFO  | 2021-07-10 14:39:25 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:44) - DOM parser start to parse.
-INFO  | 2021-07-10 14:44:01 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:34) - ./files/devices.xml
-INFO  | 2021-07-10 14:44:01 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:44) - DOM parser start to parse.
-INFO  | 2021-07-11 16:29:43 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - ./files/devices.xml
-INFO  | 2021-07-11 16:29:43 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:47) - DOM parser start to parse.
-INFO  | 2021-07-11 16:30:06 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - ./files/devices.xml
-INFO  | 2021-07-11 16:30:57 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:47) - DOM parser start to parse.
-INFO  | 2021-07-11 16:32:47 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - ./files/devices.xml
-INFO  | 2021-07-11 16:32:50 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:47) - DOM parser start to parse.
-INFO  | 2021-07-11 16:34:03 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - ./files/devices.xml
-INFO  | 2021-07-11 16:34:03 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:47) - DOM parser start to parse.
-INFO  | 2021-07-11 16:35:20 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - ./files/devices.xml
-INFO  | 2021-07-11 16:35:20 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:47) - DOM parser start to parse.
-INFO  | 2021-07-11 16:35:50 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - ./files/devices.xml
-INFO  | 2021-07-11 16:35:50 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
-INFO  | 2021-07-11 16:36:02 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - ./files/devices.xml
-INFO  | 2021-07-11 16:36:02 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
-INFO  | 2021-07-11 16:37:01 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - ./files/devices.xml
-INFO  | 2021-07-11 16:37:01 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
-INFO  | 2021-07-11 16:38:38 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - ./files/devices.xml
-INFO  | 2021-07-11 16:39:24 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
-INFO  | 2021-07-11 16:42:30 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - ./files/devices.xml
-INFO  | 2021-07-11 16:42:30 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
-INFO  | 2021-07-11 16:45:05 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - ./files/devices.xml
-INFO  | 2021-07-11 16:45:05 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:48) - DOM parser start to parse.
-INFO  | 2021-07-11 16:47:26 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - ./files/devices.xml
 INFO  | 2021-07-11 16:48:05 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - ./files/devices.xml
 INFO  | 2021-07-11 16:48:05 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:48) - DOM parser start to parse.
 INFO  | 2021-07-11 16:48:10 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - ./files/devices.xml
@@ -72,77 +42,6 @@ INFO  | 2021-07-11 16:54:10 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserIm
 INFO  | 2021-07-11 16:56:18 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
 INFO  | 2021-07-11 16:56:18 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:47) - DOM parser start to parse.
 INFO  | 2021-07-11 16:56:31 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
-INFO  | 2021-07-11 16:56:44 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
-INFO  | 2021-07-11 16:56:55 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
-INFO  | 2021-07-11 16:57:19 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
-INFO  | 2021-07-11 16:57:36 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
-INFO  | 2021-07-11 17:02:10 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
-INFO  | 2021-07-11 17:02:19 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:47) - DOM parser start to parse.
-INFO  | 2021-07-11 17:02:38 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
-INFO  | 2021-07-11 17:03:06 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
-INFO  | 2021-07-11 17:03:06 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:48) - DOM parser start to parse.
-INFO  | 2021-07-11 17:03:18 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
-INFO  | 2021-07-11 17:03:18 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:48) - DOM parser start to parse.
-INFO  | 2021-07-11 17:03:25 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
-INFO  | 2021-07-11 17:03:26 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:48) - DOM parser start to parse.
-INFO  | 2021-07-11 17:04:01 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
-INFO  | 2021-07-11 17:04:27 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:47) - DOM parser start to parse.
-INFO  | 2021-07-11 17:04:59 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:34) - files/devices.xml
-INFO  | 2021-07-11 17:05:57 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:34) - files/devices.xml
-INFO  | 2021-07-11 17:05:57 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - DOM parser start to parse.
-INFO  | 2021-07-11 17:06:39 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:34) - files/devices.xml
-INFO  | 2021-07-11 17:06:39 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:53) - DOM parser start to parse.
-INFO  | 2021-07-11 17:13:39 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:34) - files/devices.xml
-INFO  | 2021-07-11 17:16:22 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:57) - DOM parser start to parse.
-INFO  | 2021-07-11 17:16:27 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:34) - files/devices.xml
-INFO  | 2021-07-11 17:16:27 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:50) - DOM parser start to parse.
-INFO  | 2021-07-11 18:26:48 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:26:48 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:41) - DOM parser start to parse.
-INFO  | 2021-07-11 18:27:10 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:27:10 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:41) - DOM parser start to parse.
-INFO  | 2021-07-11 18:27:32 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:27:32 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:41) - DOM parser start to parse.
-INFO  | 2021-07-11 18:27:59 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:27:59 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:41) - DOM parser start to parse.
-INFO  | 2021-07-11 18:29:05 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:29:05 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
-INFO  | 2021-07-11 18:32:18 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:32:18 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:42) - DOM parser start to parse.
-INFO  | 2021-07-11 18:32:37 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:32:37 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:42) - DOM parser start to parse.
-INFO  | 2021-07-11 18:32:46 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:32:46 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:42) - DOM parser start to parse.
-INFO  | 2021-07-11 18:35:18 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:35:18 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:42) - DOM parser start to parse.
-INFO  | 2021-07-11 18:36:03 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:36:03 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:42) - DOM parser start to parse.
-INFO  | 2021-07-11 18:37:24 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:37:24 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:42) - DOM parser start to parse.
-INFO  | 2021-07-11 18:38:04 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:38:04 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:42) - DOM parser start to parse.
-INFO  | 2021-07-11 18:38:11 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:38:11 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:42) - DOM parser start to parse.
-INFO  | 2021-07-11 18:41:54 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:41:54 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:42) - DOM parser start to parse.
-INFO  | 2021-07-11 18:42:21 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:42:21 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:42) - DOM parser start to parse.
-INFO  | 2021-07-11 18:47:26 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:47:26 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:42) - DOM parser start to parse.
-INFO  | 2021-07-11 18:52:44 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:52:44 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:42) - DOM parser start to parse.
-INFO  | 2021-07-11 18:55:59 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:55:59 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:42) - DOM parser start to parse.
-INFO  | 2021-07-11 18:56:57 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:56:57 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:42) - DOM parser start to parse.
-INFO  | 2021-07-11 18:58:16 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:58:16 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:42) - DOM parser start to parse.
-INFO  | 2021-07-11 18:58:56 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:33) - files/devices.xml
-INFO  | 2021-07-11 18:58:56 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:42) - DOM parser start to parse.
-INFO  | 2021-07-11 19:00:48 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:30) - files/devices.xml
-INFO  | 2021-07-11 19:00:48 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:39) - DOM parser start to parse.
-INFO  | 2021-07-11 19:01:56 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:30) - files/devices.xml
-INFO  | 2021-07-11 19:01:56 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:39) - DOM parser start to parse.
-INFO  | 2021-07-11 19:13:07 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:30) - files/devices.xml
 INFO  | 2021-07-11 19:13:07 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:39) - DOM parser start to parse.
 INFO  | 2021-07-11 22:53:41 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:31) - files/devices.xml
 INFO  | 2021-07-11 22:53:41 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:40) - DOM parser start to parse.
@@ -152,3 +51,517 @@ INFO  | 2021-07-11 22:57:31 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserIm
 INFO  | 2021-07-11 22:57:31 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:40) - DOM parser start to parse.
 INFO  | 2021-07-11 22:59:15 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:31) - files/devices.xml
 INFO  | 2021-07-11 22:59:15 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:40) - DOM parser start to parse.
+INFO  | 2021-07-12 11:04:01 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 11:04:01 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:44) - DOM parser start to parse.
+INFO  | 2021-07-12 11:10:15 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 11:10:15 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:44) - DOM parser start to parse.
+INFO  | 2021-07-12 11:20:36 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 11:20:36 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:44) - DOM parser start to parse.
+INFO  | 2021-07-12 11:20:36 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - Parsing cpu tag..
+INFO  | 2021-07-12 11:20:36 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:49) - Parsing motherboard tag..
+INFO  | 2021-07-12 11:20:36 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing videocard tag..
+INFO  | 2021-07-12 11:20:36 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:54) - Parsing finished.
+INFO  | 2021-07-12 11:24:22 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 11:24:22 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:44) - DOM parser start to parse.
+INFO  | 2021-07-12 11:24:22 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - Parsing cpu tag..
+INFO  | 2021-07-12 11:24:22 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:49) - Parsing motherboard tag..
+INFO  | 2021-07-12 11:24:22 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing videocard tag..
+INFO  | 2021-07-12 11:24:22 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:54) - Parsing finished.
+INFO  | 2021-07-12 11:24:25 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 11:24:25 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:44) - DOM parser start to parse.
+INFO  | 2021-07-12 11:24:25 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - Parsing cpu tag..
+INFO  | 2021-07-12 11:24:25 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:49) - Parsing motherboard tag..
+INFO  | 2021-07-12 11:24:25 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing videocard tag..
+INFO  | 2021-07-12 11:24:25 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:54) - Parsing finished.
+INFO  | 2021-07-12 11:24:49 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 11:24:49 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:44) - DOM parser start to parse.
+INFO  | 2021-07-12 11:24:49 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - Parsing cpu tag..
+INFO  | 2021-07-12 11:24:49 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:49) - Parsing motherboard tag..
+INFO  | 2021-07-12 11:24:49 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing videocard tag..
+INFO  | 2021-07-12 11:24:49 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:54) - Parsing finished.
+INFO  | 2021-07-12 11:40:12 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 11:40:12 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:44) - DOM parser start to parse.
+INFO  | 2021-07-12 11:40:12 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - Parsing cpu tag..
+INFO  | 2021-07-12 11:40:12 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:49) - Parsing motherboard tag..
+INFO  | 2021-07-12 11:40:12 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing videocard tag..
+INFO  | 2021-07-12 11:40:12 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:54) - Parsing finished.
+INFO  | 2021-07-12 11:41:00 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 11:41:00 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:44) - DOM parser start to parse.
+INFO  | 2021-07-12 11:41:00 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - Parsing cpu tag..
+INFO  | 2021-07-12 11:41:00 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:49) - Parsing motherboard tag..
+INFO  | 2021-07-12 11:41:00 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing videocard tag..
+INFO  | 2021-07-12 11:41:20 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 11:41:20 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:44) - DOM parser start to parse.
+INFO  | 2021-07-12 11:41:20 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - Parsing cpu tag..
+INFO  | 2021-07-12 11:41:20 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:49) - Parsing motherboard tag..
+INFO  | 2021-07-12 11:41:20 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing videocard tag..
+INFO  | 2021-07-12 11:41:20 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:54) - Parsing finished.
+INFO  | 2021-07-12 14:47:12 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 14:47:12 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
+INFO  | 2021-07-12 14:47:12 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:50) - Parsing finished.
+INFO  | 2021-07-12 14:48:05 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 14:48:05 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
+INFO  | 2021-07-12 14:48:05 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:50) - Parsing finished.
+INFO  | 2021-07-12 14:49:17 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 14:49:17 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
+INFO  | 2021-07-12 14:49:17 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:50) - Parsing finished.
+INFO  | 2021-07-12 14:49:17 | [main] handler.DeviceHandler (DeviceHandler.java:28) - SaXParser start to parse..
+INFO  | 2021-07-12 14:50:43 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 14:50:43 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
+INFO  | 2021-07-12 14:50:43 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:50) - Parsing finished.
+INFO  | 2021-07-12 14:50:43 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+ERROR | 2021-07-12 14:50:43 | [main] handler.DeviceHandler (DeviceHandler.java:57) - Unknown start tag: devices
+INFO  | 2021-07-12 14:59:17 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 14:59:17 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
+INFO  | 2021-07-12 14:59:17 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:50) - Parsing finished.
+INFO  | 2021-07-12 14:59:17 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+ERROR | 2021-07-12 14:59:24 | [main] handler.DeviceHandler (DeviceHandler.java:57) - Unknown start tag: devices
+INFO  | 2021-07-12 15:04:52 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 15:04:52 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
+INFO  | 2021-07-12 15:04:52 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:50) - Parsing finished.
+INFO  | 2021-07-12 15:04:52 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+ERROR | 2021-07-12 15:10:37 | [main] handler.DeviceHandler (DeviceHandler.java:57) - Unknown start tag: devices
+INFO  | 2021-07-12 15:10:40 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 15:10:40 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
+INFO  | 2021-07-12 15:10:40 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:50) - Parsing finished.
+INFO  | 2021-07-12 15:10:40 | [main] handler.DeviceHandler (DeviceHandler.java:28) - SaXParser start to parse..
+ERROR | 2021-07-12 15:10:40 | [main] handler.DeviceHandler (DeviceHandler.java:55) - Unknown start tag: devices
+INFO  | 2021-07-12 15:14:03 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 15:14:03 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
+INFO  | 2021-07-12 15:14:03 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:50) - Parsing finished.
+INFO  | 2021-07-12 15:14:03 | [main] handler.DeviceHandler (DeviceHandler.java:28) - SaXParser start to parse..
+ERROR | 2021-07-12 15:14:03 | [main] handler.DeviceHandler (DeviceHandler.java:55) - Unknown start tag: devices
+INFO  | 2021-07-12 15:14:59 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 15:14:59 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
+INFO  | 2021-07-12 15:14:59 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:50) - Parsing finished.
+INFO  | 2021-07-12 15:14:59 | [main] handler.DeviceHandler (DeviceHandler.java:28) - SaXParser start to parse..
+ERROR | 2021-07-12 15:14:59 | [main] handler.DeviceHandler (DeviceHandler.java:55) - Unknown start tag: devices
+INFO  | 2021-07-12 15:15:13 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 15:15:13 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
+INFO  | 2021-07-12 15:15:13 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:50) - Parsing finished.
+INFO  | 2021-07-12 15:15:13 | [main] handler.DeviceHandler (DeviceHandler.java:28) - SaXParser start to parse..
+ERROR | 2021-07-12 15:15:13 | [main] handler.DeviceHandler (DeviceHandler.java:55) - Unknown start tag: devices
+INFO  | 2021-07-12 15:16:23 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 15:16:23 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
+INFO  | 2021-07-12 15:16:23 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:50) - Parsing finished.
+INFO  | 2021-07-12 15:16:23 | [main] handler.DeviceHandler (DeviceHandler.java:28) - SaXParser start to parse..
+ERROR | 2021-07-12 15:16:23 | [main] handler.DeviceHandler (DeviceHandler.java:55) - Unknown start tag: devices
+INFO  | 2021-07-12 15:18:23 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 15:18:23 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
+INFO  | 2021-07-12 15:18:23 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:50) - Parsing finished.
+INFO  | 2021-07-12 15:18:23 | [main] handler.DeviceHandler (DeviceHandler.java:28) - SaXParser start to parse..
+ERROR | 2021-07-12 15:18:23 | [main] handler.DeviceHandler (DeviceHandler.java:55) - Unknown start tag: devices
+INFO  | 2021-07-12 15:18:38 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 15:18:38 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
+INFO  | 2021-07-12 15:18:38 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:50) - Parsing finished.
+INFO  | 2021-07-12 15:18:38 | [main] handler.DeviceHandler (DeviceHandler.java:28) - SaXParser start to parse..
+ERROR | 2021-07-12 15:18:38 | [main] handler.DeviceHandler (DeviceHandler.java:55) - Unknown start tag: devices
+INFO  | 2021-07-12 15:18:48 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 15:18:48 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
+INFO  | 2021-07-12 15:18:48 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:50) - Parsing finished.
+INFO  | 2021-07-12 15:18:48 | [main] handler.DeviceHandler (DeviceHandler.java:28) - SaXParser start to parse..
+ERROR | 2021-07-12 15:18:48 | [main] handler.DeviceHandler (DeviceHandler.java:55) - Unknown start tag: devices
+INFO  | 2021-07-12 15:19:32 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 15:19:32 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
+INFO  | 2021-07-12 15:19:32 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:50) - Parsing finished.
+INFO  | 2021-07-12 15:19:32 | [main] handler.DeviceHandler (DeviceHandler.java:28) - SaXParser start to parse..
+ERROR | 2021-07-12 15:19:32 | [main] handler.DeviceHandler (DeviceHandler.java:55) - Unknown start tag: devices
+INFO  | 2021-07-12 15:27:33 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:35) - files/devices.xml
+INFO  | 2021-07-12 15:27:33 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:43) - DOM parser start to parse.
+INFO  | 2021-07-12 15:29:36 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 15:29:36 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 15:29:45 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 15:29:45 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 15:30:35 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 15:30:35 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 15:31:08 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 15:31:08 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 15:32:26 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 15:32:26 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 15:32:50 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 15:32:50 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 15:33:14 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 15:33:14 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 15:33:21 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 15:33:21 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 15:34:30 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:38) - files/devices.xml
+INFO  | 2021-07-12 15:34:30 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
+INFO  | 2021-07-12 15:34:38 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:38) - files/devices.xml
+INFO  | 2021-07-12 15:34:38 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
+INFO  | 2021-07-12 15:36:27 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 15:36:27 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 15:36:32 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 15:36:32 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 15:41:27 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 15:41:27 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 15:41:27 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 15:41:27 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+ERROR | 2021-07-12 15:41:27 | [main] handler.DeviceHandler (DeviceHandler.java:57) - Unknown start tag: devices
+INFO  | 2021-07-12 15:42:40 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 15:42:40 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 15:42:40 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICES
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ARCHITECTURE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: MEMORY_TYPE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: SATA
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ARCHITECTURE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag VIDEOCARD in Videocard
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COOLER
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: OUTPUT_PORT
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: HASHRATE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ARCHITECTURE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: MEMORY_TYPE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: SATA
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ARCHITECTURE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ARCHITECTURE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: MEMORY_TYPE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: SATA
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: MEMORY_TYPE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: SATA
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ARCHITECTURE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ARCHITECTURE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: MEMORY_TYPE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: SATA
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag VIDEOCARD in Videocard
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COOLER
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: OUTPUT_PORT
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: HASHRATE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag VIDEOCARD in Videocard
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COOLER
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: OUTPUT_PORT
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: HASHRATE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag VIDEOCARD in Videocard
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COOLER
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: OUTPUT_PORT
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: HASHRATE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag VIDEOCARD in Videocard
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COOLER
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: OUTPUT_PORT
+ERROR | 2021-07-12 15:42:40 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: HASHRATE
+INFO  | 2021-07-12 15:43:10 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 15:43:10 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 15:43:10 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 15:43:10 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+INFO  | 2021-07-12 15:43:55 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 15:43:55 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 15:43:55 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICES
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ARCHITECTURE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: MEMORY_TYPE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: SATA
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ARCHITECTURE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag VIDEOCARD in Videocard
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COOLER
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: OUTPUT_PORT
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: HASHRATE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ARCHITECTURE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: MEMORY_TYPE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: SATA
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ARCHITECTURE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ARCHITECTURE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: MEMORY_TYPE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: SATA
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: MEMORY_TYPE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: SATA
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ARCHITECTURE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag CPU in CPU
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ARCHITECTURE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag MOTHERBOARD in Videocard
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CPU_SOCKET
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: MEMORY_TYPE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: SATA
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag VIDEOCARD in Videocard
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COOLER
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: OUTPUT_PORT
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: HASHRATE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag VIDEOCARD in Videocard
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COOLER
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: OUTPUT_PORT
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: HASHRATE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag VIDEOCARD in Videocard
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COOLER
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: OUTPUT_PORT
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: HASHRATE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: DEVICE_NAME
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:88) - by.demeshko.xmlparser.exception.XMLParseException: Unknown xml tag VIDEOCARD in Videocard
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: ORIGIN
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PRICE
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: CRITICAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: PERIPHERAL
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COMPONENT_GROUP
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: POWER_CONSUMPTION
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: COOLER
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: OUTPUT_PORT
+ERROR | 2021-07-12 15:43:55 | [main] handler.DeviceHandler (DeviceHandler.java:58) - Unknown start tag: HASHRATE
+INFO  | 2021-07-12 15:48:11 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:37) - files/devices.xml
+INFO  | 2021-07-12 15:48:11 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:45) - DOM parser start to parse.
+INFO  | 2021-07-12 15:48:11 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:52) - Parsing finished.
+INFO  | 2021-07-12 15:48:11 | [main] handler.DeviceHandler (DeviceHandler.java:30) - SaXParser start to parse..

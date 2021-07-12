@@ -1,147 +1,195 @@
 <?xml version="1.0" encoding="utf-8"?>
-<devices xsi:noNamespaceSchemaLocation="devices.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<cpu id="a0001">
-		<deviceName>Intel Pentium G6400</deviceName>
-		<origin>China</origin>
-		<price>220</price>
-		<critical>true</critical>
-		<peripheral>false</peripheral>
-		<groupOfComponents>component Device</groupOfComponents>
-		<powerConsumption>58</powerConsumption>
-		<cpuSocket>LGA1200</cpuSocket>
-		<architecture>Sandy Bridge</architecture>
-	</cpu>
-	<motherboard id="a0002">
-		<deviceName>ASUS H110</deviceName>
-		<origin>Sweden</origin>
-		<price>611</price>
-		<critical>true</critical>
-		<peripheral>0</peripheral>
-		<groupOfComponents>component Device</groupOfComponents>
-		<cpuSocket>LGA1200</cpuSocket>
-		<memoryType>DDR3</memoryType>
-		<sata>6</sata>
-	</motherboard>
-	<cpu id="a0003">
-		<deviceName>Intel i5-3470</deviceName>
-		<origin>Europe</origin>
-		<price>2684</price>
-		<critical>true</critical>
-		<peripheral>false</peripheral>
-		<groupOfComponents>component Device</groupOfComponents>
-		<powerConsumption>88</powerConsumption>
-		<cpuSocket>LGA1151</cpuSocket>
-		<architecture>Sandy Bridge</architecture>
-	</cpu>
-	<videoCard id="a0004">
-		<deviceName>Geforce 210</deviceName>
-		<origin>Belarus</origin>
-		<price>7028</price>
-		<critical>0</critical>
-		<peripheral>0</peripheral>
-		<groupOfComponents>component Device</groupOfComponents>
-		<powerConsumption>15</powerConsumption>
-		<cooler>0</cooler>
-		<outputPort>DVI</outputPort>
-		<hashRate>180</hashRate>
-	</videoCard>
-	<cpu id="a0005">
-		<deviceName>AMD A-10</deviceName>
-		<origin>China</origin>
-		<price>2601</price>
-		<critical>true</critical>
-		<peripheral>0</peripheral>
-		<groupOfComponents>component Device</groupOfComponents>
-		<powerConsumption>128</powerConsumption>
-		<cpuSocket>FM2</cpuSocket>
-		<architecture>Cannon Lake</architecture>
-	</cpu>
-	<motherboard id="a0006">
-		<deviceName>ASROCK H410</deviceName>
-		<origin>China</origin>
-		<price>563</price>
-		<critical>true</critical>
-		<peripheral>false</peripheral>
-		<groupOfComponents>component Device</groupOfComponents>
-		<cpuSocket>LGA1156</cpuSocket>
-		<memoryType>DDR5</memoryType>
-		<sata>6</sata>
-	</motherboard>
-	<cpu id="a0007">
-		<deviceName>AMD Ryzen H4800</deviceName>
-		<origin>Europe</origin>
-		<price>696</price>
-		<critical>true</critical>
-		<peripheral>false</peripheral>
-		<groupOfComponents>component Device</groupOfComponents>
-		<powerConsumption>102</powerConsumption>
-		<cpuSocket>LGA1151</cpuSocket>
-		<architecture>Cannon Lake</architecture>
-	</cpu>
-	<cpu id="a0008">
-		<deviceName>Intel Pentium 200</deviceName>
-		<origin>USA</origin>
-		<price>536</price>
-		<critical>1</critical>
-		<peripheral>false</peripheral>
-		<groupOfComponents>component Device</groupOfComponents>
-		<powerConsumption>484</powerConsumption>
-		<cpuSocket>LGA1151</cpuSocket>
-		<architecture>Sandy Bridge</architecture>
-	</cpu>
-	<motherboard id="a0009">
-		<deviceName>Asus Tuf Gaming h540</deviceName>
-		<origin>Taiwan</origin>
-		<price>9779</price>
-		<critical>1</critical>
-		<peripheral>0</peripheral>
-		<groupOfComponents>component Device</groupOfComponents>
-		<cpuSocket>FM2</cpuSocket>
-		<memoryType>DDR2</memoryType>
-		<sata>4</sata>
-	</motherboard>
-	<motherboard id="a0010">
-		<deviceName>BeatGaming F14</deviceName>
-		<origin>Russia</origin>
-		<price>877</price>
-		<critical>1</critical>
-		<peripheral>0</peripheral>
-		<groupOfComponents>component Device</groupOfComponents>
-		<cpuSocket>FM2</cpuSocket>
-		<memoryType>DDR3</memoryType>
-		<sata>1</sata>
-	</motherboard>
-	<cpu id="a0011">
-		<deviceName>string</deviceName>
-		<origin>Taiwan</origin>
-		<price>9939</price>
-		<critical>1</critical>
-		<peripheral>0</peripheral>
-		<groupOfComponents>component Device</groupOfComponents>
-		<powerConsumption>960</powerConsumption>
-		<cpuSocket>LGA1151</cpuSocket>
-		<architecture>Sandy Bridge</architecture>
-	</cpu>
-	<cpu id="a0012">
-		<deviceName>Intel Mention S491</deviceName>
-		<origin>USA</origin>
-		<price>3431</price>
-		<critical>1</critical>
-		<peripheral>0</peripheral>
-		<groupOfComponents>component Device</groupOfComponents>
-		<powerConsumption>1354</powerConsumption>
-		<cpuSocket>LGA1156</cpuSocket>
-		<architecture>Cannon Lake</architecture>
-	</cpu>
-	<motherboard id="a0013">
-		<deviceName>Wow gaming h1520</deviceName>
-		<origin>Japan</origin>
-		<price>171</price>
-		<critical>false</critical>
-		<peripheral>true</peripheral>
-		<groupOfComponents>component Device</groupOfComponents>
-		<cpuSocket>FM2</cpuSocket>
-		<memoryType>DDR1</memoryType>
-		<sata>4</sata>
-	</motherboard>
+<devices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="devices.xsd">
+    <cpu id="a0001">
+        <device-name>Intel Pentium G6400</device-name>
+        <origin>China</origin>
+        <price>220</price>
+        <critical>true</critical>
+        <peripheral>false</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <power-consumption>58</power-consumption>
+        <cpu-socket>LGA1200</cpu-socket>
+        <architecture>SANDY_BRIDGE</architecture>
+    </cpu>
+    <motherboard id="a0002">
+        <device-name>ASUS H110</device-name>
+        <origin>Sweden</origin>
+        <price>611</price>
+        <critical>true</critical>
+        <peripheral>0</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <cpu-socket>LGA1200</cpu-socket>
+        <memory-type>DDR3</memory-type>
+        <sata>6</sata>
+    </motherboard>
+    <cpu id="a0003">
+        <device-name>Intel i5-3470</device-name>
+        <origin>Europe</origin>
+        <price>2684</price>
+        <critical>true</critical>
+        <peripheral>false</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <power-consumption>88</power-consumption>
+        <cpu-socket>LGA1151</cpu-socket>
+        <architecture>SKYLAKE</architecture>
+    </cpu>
+    <videocard id="a0004">
+        <device-name>Geforce 210</device-name>
+        <origin>Belarus</origin>
+        <price>7028</price>
+        <critical>0</critical>
+        <peripheral>0</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <power-consumption>15</power-consumption>
+        <cooler>0</cooler>
+        <output-port>DVI</output-port>
+        <hashrate>180</hashrate>
+    </videocard>
+    <cpu id="a0005">
+        <device-name>AMD A-10</device-name>
+        <origin>China</origin>
+        <price>2601</price>
+        <critical>true</critical>
+        <peripheral>0</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <power-consumption>128</power-consumption>
+        <cpu-socket>FM2</cpu-socket>
+        <architecture>CANNON_LAKE</architecture>
+    </cpu>
+    <motherboard id="a0006">
+        <device-name>ASROCK H410</device-name>
+        <origin>China</origin>
+        <price>563</price>
+        <critical>true</critical>
+        <peripheral>false</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <cpu-socket>LGA1156</cpu-socket>
+        <memory-type>DDR5</memory-type>
+        <sata>6</sata>
+    </motherboard>
+    <cpu id="a0007">
+        <device-name>AMD Ryzen H4800</device-name>
+        <origin>Europe</origin>
+        <price>696</price>
+        <critical>true</critical>
+        <peripheral>false</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <power-consumption>102</power-consumption>
+        <cpu-socket>LGA1151</cpu-socket>
+        <architecture>CANNON_LAKE</architecture>
+    </cpu>
+    <cpu id="a0008">
+        <device-name>Intel Pentium 200</device-name>
+        <origin>USA</origin>
+        <price>536</price>
+        <critical>1</critical>
+        <peripheral>false</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <power-consumption>484</power-consumption>
+        <cpu-socket>LGA1151</cpu-socket>
+        <architecture>SANDY_BRIDGE</architecture>
+    </cpu>
+    <motherboard id="a0009">
+        <device-name>Asus Tuf Gaming h540</device-name>
+        <origin>Taiwan</origin>
+        <price>9779</price>
+        <critical>1</critical>
+        <peripheral>0</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <cpu-socket>FM2</cpu-socket>
+        <memory-type>DDR2</memory-type>
+        <sata>4</sata>
+    </motherboard>
+    <motherboard id="a0010">
+        <device-name>BeatGaming F14</device-name>
+        <origin>Russia</origin>
+        <price>877</price>
+        <critical>1</critical>
+        <peripheral>0</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <cpu-socket>FM2</cpu-socket>
+        <memory-type>DDR3</memory-type>
+        <sata>1</sata>
+    </motherboard>
+    <cpu id="a0011">
+        <device-name>string</device-name>
+        <origin>Taiwan</origin>
+        <price>9939</price>
+        <critical>1</critical>
+        <peripheral>0</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <power-consumption>960</power-consumption>
+        <cpu-socket>LGA1151</cpu-socket>
+        <architecture>SANDY_BRIDGE</architecture>
+    </cpu>
+    <cpu id="a0012">
+        <device-name>Intel Mention S491</device-name>
+        <origin>USA</origin>
+        <price>3431</price>
+        <critical>1</critical>
+        <peripheral>0</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <power-consumption>1354</power-consumption>
+        <cpu-socket>LGA1156</cpu-socket>
+        <architecture>CANNON_LAKE</architecture>
+    </cpu>
+    <motherboard id="a0013">
+        <device-name>Wow gaming h1520</device-name>
+        <origin>Japan</origin>
+        <price>171</price>
+        <critical>false</critical>
+        <peripheral>true</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <cpu-socket>FM2</cpu-socket>
+        <memory-type>DDR1</memory-type>
+        <sata>4</sata>
+    </motherboard>
+    <videocard id="a00014">
+        <device-name>Geforce 410</device-name>
+        <origin>Russia</origin>
+        <price>1028</price>
+        <critical>0</critical>
+        <peripheral>0</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <power-consumption>15</power-consumption>
+        <cooler>0</cooler>
+        <output-port>VGA</output-port>
+        <hashrate>60</hashrate>
+    </videocard>
+    <videocard id="a00015">
+        <device-name>Asus Rog Strix 3060</device-name>
+        <origin>Korea</origin>
+        <price>17028</price>
+        <critical>0</critical>
+        <peripheral>0</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <power-consumption>300</power-consumption>
+        <cooler>1</cooler>
+        <output-port>DVI</output-port>
+        <hashrate>400</hashrate>
+    </videocard>
+    <videocard id="a00016">
+        <device-name>Radeon HD5400</device-name>
+        <origin>China</origin>
+        <price>528</price>
+        <critical>0</critical>
+        <peripheral>0</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <power-consumption>15</power-consumption>
+        <cooler>1</cooler>
+        <output-port>VGA</output-port>
+        <hashrate>220</hashrate>
+    </videocard>
+    <videocard id="a00017">
+        <device-name>Geforce 560</device-name>
+        <origin>Europe</origin>
+        <price>5500</price>
+        <critical>0</critical>
+        <peripheral>0</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <power-consumption>40</power-consumption>
+        <cooler>1</cooler>
+        <output-port>VGA</output-port>
+        <hashrate>50</hashrate>
+    </videocard>
 </devices>

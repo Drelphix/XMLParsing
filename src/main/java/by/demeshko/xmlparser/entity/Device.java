@@ -12,7 +12,8 @@ public abstract class Device {
     private boolean peripheral;
     private GroupOfComponents groupOfComponents;
 
-    public Device(){}
+    public Device() {
+    }
 
     public Device(String id, String deviceName, String origin, int price, boolean critical, boolean peripheral, GroupOfComponents groupOfComponents) {
         this.id = id;
@@ -53,8 +54,8 @@ public abstract class Device {
     }
 
     public void setPrice(int price) throws DeviceException {
-        if(price < 0) {
-            throw new DeviceException();
+        if (price < 0) {
+            throw new DeviceException("Price can't be less than 0! Current value is: " + price);
         }
         this.price = price;
     }
@@ -118,8 +119,8 @@ public abstract class Device {
                 .append(", origin = ").append(origin)
                 .append(", price = ").append(price)
                 .append(", isCritical = ").append(critical)
-                .append(", isPeripheral").append(peripheral)
-                .append(", groupOfComponents").append(groupOfComponents.label);
+                .append(", isPeripheral = ").append(peripheral)
+                .append(", groupOfComponents = ").append(groupOfComponents.label);
         return stringBuilder.toString();
     }
 }
