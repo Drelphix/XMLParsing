@@ -1,6 +1,7 @@
 package by.demeshko.xmlparser.parser.handler;
 
 import by.demeshko.xmlparser.entity.Cpu;
+import by.demeshko.xmlparser.entity.Device;
 import by.demeshko.xmlparser.entity.Motherboard;
 import by.demeshko.xmlparser.entity.Videocard;
 import by.demeshko.xmlparser.entity.types.*;
@@ -8,8 +9,6 @@ import by.demeshko.xmlparser.exception.DeviceException;
 import by.demeshko.xmlparser.exception.XMLParseException;
 import by.demeshko.xmlparser.parser.XMLAttributes;
 import by.demeshko.xmlparser.parser.XMLTag;
-import by.demeshko.xmlparser.repository.DeviceRepository;
-import by.demeshko.xmlparser.repository.impl.DeviceRepositoryImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.xml.sax.Attributes;
@@ -17,6 +16,8 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 public class DeviceHandler extends DefaultHandler {
     private static final Logger logger = LogManager.getLogger();
@@ -27,6 +28,7 @@ public class DeviceHandler extends DefaultHandler {
     private Motherboard.Builder motherboardBuilder;
     private XMLTag currentDeviceTag;
     private XMLTag deviceType;
+    private List<Device> devices = new ArrayList<>();
 
     @Override
     public void startDocument() throws SAXException {
@@ -67,12 +69,11 @@ public class DeviceHandler extends DefaultHandler {
 
     @Override
     public void endElement(String uri, String localName, String qName) {
-        DeviceRepository deviceRepository = DeviceRepositoryImpl.getInstance();
         XMLTag tag = XMLTag.valueOf(this.replaceXmlTag(qName));
         switch (tag) {
-            case CPU -> deviceRepository.add(this.cpuBuilder.build());
-            case MOTHERBOARD -> deviceRepository.add(this.motherboardBuilder.build());
-            case VIDEOCARD -> deviceRepository.add(this.videocardBuilder.build());
+            case CPU -> this.devices.add(this.cpuBuilder.build());
+            case MOTHERBOARD -> this.devices.add(this.motherboardBuilder.build());
+            case VIDEOCARD -> this.devices.add(this.videocardBuilder.build());
             default -> this.currentDeviceTag = tag;
         }
     }
@@ -92,6 +93,10 @@ public class DeviceHandler extends DefaultHandler {
         } catch (XMLParseException e) {
             logger.error(e);
         }
+    }
+
+    public List<Device> getDevices(){
+        return this.devices;
     }
 
     private void setCpu(String data) throws XMLParseException {

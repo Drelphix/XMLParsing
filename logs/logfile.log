@@ -853,3 +853,65 @@ INFO  | 2021-07-12 22:50:06 | [main] handler.DeviceHandler (DeviceHandler.java:3
 INFO  | 2021-07-12 22:50:06 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:43) - Using file: devices.xml
 INFO  | 2021-07-12 22:50:06 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:50) - StaX parser start to parse
 INFO  | 2021-07-12 22:50:06 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:92) - StaX parser finish parsing
+INFO  | 2021-07-13 22:45:37 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:38) - Using file: D:\java\XMLParsing\target\test-classes\devices.xsd
+INFO  | 2021-07-13 22:46:53 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:38) - Using file: devices.xsd
+INFO  | 2021-07-13 22:46:53 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:46) - DOM parser start to parse.
+INFO  | 2021-07-13 22:46:53 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:53) - Parsing finished.
+INFO  | 2021-07-13 23:06:13 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:40) - Using file: devices.xsd
+INFO  | 2021-07-13 23:06:13 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:48) - DOM parser start to parse.
+INFO  | 2021-07-13 23:06:13 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:55) - Parsing finished.
+INFO  | 2021-07-13 23:06:34 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:40) - Using file: devices.xsd
+INFO  | 2021-07-13 23:07:16 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:48) - DOM parser start to parse.
+INFO  | 2021-07-13 23:07:16 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:55) - Parsing finished.
+INFO  | 2021-07-13 23:09:55 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:40) - Using file: devices.xsd
+INFO  | 2021-07-13 23:09:55 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:48) - DOM parser start to parse.
+INFO  | 2021-07-13 23:09:55 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:55) - Parsing finished.
+INFO  | 2021-07-13 23:10:09 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:40) - Using file: devices.xsd
+INFO  | 2021-07-13 23:10:09 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:48) - DOM parser start to parse.
+INFO  | 2021-07-13 23:10:09 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:55) - Parsing finished.
+INFO  | 2021-07-13 23:11:04 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:40) - Using file: devices.xsd
+INFO  | 2021-07-13 23:11:15 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:48) - DOM parser start to parse.
+INFO  | 2021-07-13 23:11:46 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:55) - Parsing finished.
+INFO  | 2021-07-13 23:12:14 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:40) - Using file: devices.xsd
+INFO  | 2021-07-13 23:12:42 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:48) - DOM parser start to parse.
+INFO  | 2021-07-13 23:13:15 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:55) - Parsing finished.
+INFO  | 2021-07-13 23:13:20 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:40) - Using file: devices.xml
+INFO  | 2021-07-13 23:13:20 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:48) - DOM parser start to parse.
+INFO  | 2021-07-13 23:13:20 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:55) - Parsing finished.
+INFO  | 2021-07-13 23:13:20 | [main] impl.SaXXmlParserImpl (SaXXmlParserImpl.java:25) - Using file: devices.xml
+INFO  | 2021-07-13 23:13:20 | [main] handler.DeviceHandler (DeviceHandler.java:35) - SaXParser start to parse..
+INFO  | 2021-07-13 23:13:20 | [main] handler.DeviceHandler (DeviceHandler.java:40) - SaXParser end to parse..
+INFO  | 2021-07-13 23:13:20 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:45) - Using file: devices.xml
+INFO  | 2021-07-13 23:13:20 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:52) - StaX parser start to parse
+INFO  | 2021-07-13 23:13:20 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:94) - StaX parser finish parsing
+INFO  | 2021-07-13 23:13:35 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:40) - Using file: devices.xsd
+INFO  | 2021-07-13 23:13:35 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:48) - DOM parser start to parse.
+INFO  | 2021-07-13 23:13:35 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:55) - Parsing finished.
+INFO  | 2021-07-13 23:16:05 | [main] impl.SaXXmlParserImpl (SaXXmlParserImpl.java:25) - Using file: devices.xsd
+INFO  | 2021-07-13 23:16:05 | [main] handler.DeviceHandler (DeviceHandler.java:35) - SaXParser start to parse..
+INFO  | 2021-07-13 23:16:05 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:40) - Using file: devices.xsd
+INFO  | 2021-07-13 23:16:05 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:48) - DOM parser start to parse.
+INFO  | 2021-07-13 23:16:05 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:55) - Parsing finished.
+INFO  | 2021-07-13 23:16:05 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:45) - Using file: devices.xsd
+INFO  | 2021-07-13 23:16:05 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:52) - StaX parser start to parse
+INFO  | 2021-07-13 23:17:43 | [main] impl.SaXXmlParserImpl (SaXXmlParserImpl.java:25) - Using file: testDevice.xsd
+INFO  | 2021-07-13 23:17:43 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:40) - Using file: testDevice.xsd
+INFO  | 2021-07-13 23:17:43 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:45) - Using file: testDevice.xsd
+INFO  | 2021-07-13 23:18:01 | [main] impl.SaXXmlParserImpl (SaXXmlParserImpl.java:25) - Using file: testDevice.xml
+INFO  | 2021-07-13 23:18:01 | [main] handler.DeviceHandler (DeviceHandler.java:35) - SaXParser start to parse..
+INFO  | 2021-07-13 23:18:01 | [main] handler.DeviceHandler (DeviceHandler.java:40) - SaXParser end to parse..
+INFO  | 2021-07-13 23:18:01 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:40) - Using file: testDevice.xml
+INFO  | 2021-07-13 23:18:01 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:48) - DOM parser start to parse.
+INFO  | 2021-07-13 23:18:01 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:55) - Parsing finished.
+INFO  | 2021-07-13 23:18:01 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:45) - Using file: testDevice.xml
+INFO  | 2021-07-13 23:18:02 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:52) - StaX parser start to parse
+INFO  | 2021-07-13 23:18:02 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:94) - StaX parser finish parsing
+INFO  | 2021-07-13 23:20:56 | [main] impl.SaXXmlParserImpl (SaXXmlParserImpl.java:25) - Using file: testDevice.xml
+INFO  | 2021-07-13 23:20:56 | [main] handler.DeviceHandler (DeviceHandler.java:35) - SaXParser start to parse..
+INFO  | 2021-07-13 23:20:56 | [main] handler.DeviceHandler (DeviceHandler.java:40) - SaXParser end to parse..
+INFO  | 2021-07-13 23:20:56 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:40) - Using file: testDevice.xml
+INFO  | 2021-07-13 23:20:56 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:48) - DOM parser start to parse.
+INFO  | 2021-07-13 23:20:56 | [main] impl.DOMDeviceParserImpl (DOMDeviceParserImpl.java:55) - Parsing finished.
+INFO  | 2021-07-13 23:20:56 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:45) - Using file: testDevice.xml
+INFO  | 2021-07-13 23:20:56 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:52) - StaX parser start to parse
+INFO  | 2021-07-13 23:20:56 | [main] impl.StaXXmlParserImpl (StaXXmlParserImpl.java:94) - StaX parser finish parsing

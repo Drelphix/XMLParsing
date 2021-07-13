@@ -1,6 +1,7 @@
 package by.demeshko.xmlparser.parser.impl;
 
 import by.demeshko.xmlparser.entity.Cpu;
+import by.demeshko.xmlparser.entity.Device;
 import by.demeshko.xmlparser.entity.Motherboard;
 import by.demeshko.xmlparser.entity.Videocard;
 import by.demeshko.xmlparser.entity.types.*;
@@ -9,8 +10,6 @@ import by.demeshko.xmlparser.exception.XMLParseException;
 import by.demeshko.xmlparser.parser.DeviceParser;
 import by.demeshko.xmlparser.parser.XMLAttributes;
 import by.demeshko.xmlparser.parser.XMLTag;
-import by.demeshko.xmlparser.repository.DeviceRepository;
-import by.demeshko.xmlparser.repository.impl.DeviceRepositoryImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -24,30 +23,33 @@ import javax.xml.stream.events.XMLEvent;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class StaXXmlParserImpl implements DeviceParser {
+    private static final Logger LOGGER = LogManager.getLogger();
     private static final String HYPHEN = "-";
     private static final String UNDERSCORE = "_";
     private static final String UNKNOWN_XML_TAG = "Unknown XML tag ";
-    private final Logger logger = LogManager.getLogger();
-    private final DeviceRepository deviceRepository = DeviceRepositoryImpl.getInstance();
+    private static final String PATH_TO_XML = "devices.xml";
     private Cpu.Builder cpuBuilder;
     private Videocard.Builder videocardBuilder;
     private Motherboard.Builder motherboardBuilder;
     private XMLTag deviceType;
     private XMLTag currentDeviceTag;
+    private List<Device> devices = new ArrayList<>();
 
     @Override
-    public void parseDevices(String xmlFilePath) throws DeviceException {
-        logger.info("Using file: " + (xmlFilePath.equals("") ?
-                xmlFilePath = DOMDeviceParserImpl.PATH_TO_XML :
+    public List<Device> parseDevices(String xmlFilePath) {
+        LOGGER.info("Using file: " + (xmlFilePath.equals("") ?
+                xmlFilePath = PATH_TO_XML :
                 xmlFilePath));
         String xmlFile = ClassLoader.getSystemClassLoader().getResource(xmlFilePath).getFile();
         XMLInputFactory factory = XMLInputFactory.newFactory();
         try {
             XMLEventReader eventReader = factory.createXMLEventReader(new FileInputStream(xmlFile));
-            logger.info("StaX parser start to parse");
+            LOGGER.info("StaX parser start to parse");
             while (eventReader.hasNext()) {
                 XMLEvent event = eventReader.nextEvent();
                 if (event.isStartElement()) {
@@ -75,7 +77,7 @@ public class StaXXmlParserImpl implements DeviceParser {
                         case DEVICES -> deviceType = currentDeviceTag;
                         default -> {
                             event = eventReader.nextEvent();
-                            EventHandler(event);
+                            parseEntity(event);
                         }
                     }
                 }
@@ -83,28 +85,29 @@ public class StaXXmlParserImpl implements DeviceParser {
                     EndElement endElement = event.asEndElement();
                     XMLTag endDevice = XMLTag.valueOf(changeTag(endElement.getName().getLocalPart()));
                     switch (endDevice) {
-                        case CPU -> deviceRepository.add(cpuBuilder.build());
-                        case VIDEOCARD -> deviceRepository.add(videocardBuilder.build());
-                        case MOTHERBOARD -> deviceRepository.add(motherboardBuilder.build());
+                        case CPU -> devices.add(cpuBuilder.build());
+                        case VIDEOCARD -> devices.add(videocardBuilder.build());
+                        case MOTHERBOARD -> devices.add(motherboardBuilder.build());
                     }
                 }
             }
-            logger.info("StaX parser finish parsing");
+            LOGGER.info("StaX parser finish parsing");
         } catch (XMLStreamException | FileNotFoundException e) {
-            logger.error("Can't parse file ", e);
+            LOGGER.error("Can't parse file ", e);
         }
+        return this.devices;
     }
 
-    private void EventHandler(XMLEvent event) {
+    private void parseEntity(XMLEvent event) {
         try {
             switch (this.deviceType) {
                 case CPU -> parseCpu(event.asCharacters().getData());
                 case VIDEOCARD -> parseVideocard((event.asCharacters().getData()));
                 case MOTHERBOARD -> parseMotherboard((event.asCharacters().getData()));
-                default -> logger.error("Unexpected xml tag: " + this.deviceType);
+                default -> LOGGER.error(new StringBuilder().append(UNKNOWN_XML_TAG).append(this.deviceType));
             }
         } catch (XMLParseException e) {
-            logger.error(e);
+            LOGGER.error(e);
         }
     }
 
@@ -126,7 +129,7 @@ public class StaXXmlParserImpl implements DeviceParser {
                         .append(" in Cpu").toString());
             }
         } catch (DeviceException e) {
-            logger.error(e);
+            LOGGER.error(e);
         }
     }
 
@@ -150,7 +153,7 @@ public class StaXXmlParserImpl implements DeviceParser {
                                 .append(" in Videocard").toString());
             }
         } catch (DeviceException e) {
-            logger.error(e);
+            LOGGER.error(e);
         }
     }
 
@@ -173,7 +176,7 @@ public class StaXXmlParserImpl implements DeviceParser {
                                 .append(" in motherboard").toString());
             }
         } catch (DeviceException e) {
-            logger.error(e);
+            LOGGER.error(e);
         }
     }
 

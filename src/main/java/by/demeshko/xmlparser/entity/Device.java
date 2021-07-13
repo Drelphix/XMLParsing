@@ -136,7 +136,7 @@ public abstract class Device {
                 .append(", price = ").append(price)
                 .append(", isCritical = ").append(critical)
                 .append(", isPeripheral = ").append(peripheral)
-                .append(", groupOfComponents = ").append(groupOfComponents.label);
+                .append(", groupOfComponents = ").append(groupOfComponents.getValue());
         return stringBuilder.toString();
     }
 }

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<devices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="devices.xsd">
+    <cpu id="a0001" date="1980-03-23">
+        <device-name>Intel Pentium G6400</device-name>
+        <origin>China</origin>
+        <price>220</price>
+        <critical>true</critical>
+        <peripheral>false</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <power-consumption>58</power-consumption>
+        <cpu-socket>LGA1200</cpu-socket>
+        <architecture>SANDY_BRIDGE</architecture>
+    </cpu>
+    <motherboard id="a0002" date="1990-03-23">
+        <device-name>ASUS H110</device-name>
+        <origin>Sweden</origin>
+        <price>611</price>
+        <critical>true</critical>
+        <peripheral>0</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <cpu-socket>LGA1200</cpu-socket>
+        <memory-type>DDR3</memory-type>
+        <sata>6</sata>
+    </motherboard>
+    <videocard id="a0004" date="2000-05-23">
+        <device-name>Geforce 210</device-name>
+        <origin>Belarus</origin>
+        <price>7028</price>
+        <critical>0</critical>
+        <peripheral>0</peripheral>
+        <component-group>COMPONENT_DEVICE</component-group>
+        <power-consumption>15</power-consumption>
+        <cooler>0</cooler>
+        <output-port>DVI</output-port>
+        <hashrate>180</hashrate>
+    </videocard>
+</devices>

@@ -1,9 +1,11 @@
 package by.demeshko.xmlparser.parser;
 
+import by.demeshko.xmlparser.entity.Device;
 import by.demeshko.xmlparser.exception.DeviceException;
 
-public interface DeviceParser {
-    String PATH_TO_XML = "devices.xml";
+import java.util.List;
 
-    void parseDevices(String xmlFilePath) throws DeviceException;
+public interface DeviceParser {
+
+    List<Device> parseDevices(String xmlFilePath) throws DeviceException;
 }

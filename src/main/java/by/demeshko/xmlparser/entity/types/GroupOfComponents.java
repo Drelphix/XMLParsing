@@ -7,9 +7,13 @@ public enum GroupOfComponents {
     STORAGE_DEVICE("Storage devices"),
     NETWORK_DEVICE("Network devices");
 
-    public final String label;
+    private String value;
 
-    GroupOfComponents(String label) {
-        this.label = label;
+    GroupOfComponents(String value) {
+        this.value = value;
+    }
+
+    public String getValue() {
+        return value;
     }
 }

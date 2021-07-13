@@ -1,14 +1,13 @@
 package by.demeshko.xmlparser.parser.impl;
 
 import by.demeshko.xmlparser.entity.Cpu;
+import by.demeshko.xmlparser.entity.Device;
 import by.demeshko.xmlparser.entity.Motherboard;
 import by.demeshko.xmlparser.entity.Videocard;
 import by.demeshko.xmlparser.entity.types.*;
 import by.demeshko.xmlparser.exception.DeviceException;
 import by.demeshko.xmlparser.parser.DeviceParser;
 import by.demeshko.xmlparser.parser.XMLAttributes;
-import by.demeshko.xmlparser.repository.DeviceRepository;
-import by.demeshko.xmlparser.repository.impl.DeviceRepositoryImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.w3c.dom.Document;
@@ -22,35 +21,39 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 import static by.demeshko.xmlparser.parser.XMLTag.*;
 
 public class DOMDeviceParserImpl implements DeviceParser {
-    private static final Logger logger = LogManager.getLogger();
+    private static final Logger LOGGER = LogManager.getLogger();
     private static final int DEFAULT_POSITION = 0;
+    private static final String PATH_TO_XML = "devices.xml";
     private static final String INCORRECT_PARAMETER_ERROR = "Input parameter is not correct";
-
     private static final String HYPHEN = "-";
     private static final String UNDERSCORE = "_";
+    private List<Device> devices = new ArrayList<>();
 
     @Override
-    public void parseDevices(String xmlFilePath) throws DeviceException {
-        logger.info("Using file: " + (xmlFilePath.equals("") ?
-                xmlFilePath = DOMDeviceParserImpl.PATH_TO_XML :
+    public List<Device> parseDevices(String xmlFilePath) throws DeviceException {
+        LOGGER.info("Using file: " + (xmlFilePath.equals("") ?
+                xmlFilePath = PATH_TO_XML :
                 xmlFilePath));
         String xmlFile = ClassLoader.getSystemClassLoader().getResource(xmlFilePath).getFile();
         try {
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = documentBuilderFactory.newDocumentBuilder();
             Document document = builder.parse(xmlFile);
-            logger.info("DOM parser start to parse.");
+            LOGGER.info("DOM parser start to parse.");
             NodeList cpuList = document.getElementsByTagName(CPU.getValue());
             parseCpu(cpuList);
             NodeList motherboards = document.getElementsByTagName(MOTHERBOARD.getValue());
             parseMotherboard(motherboards);
             NodeList videoCards = document.getElementsByTagName(VIDEOCARD.getValue());
-            parseVideoCard(videoCards);
-            logger.info("Parsing finished.");
+            parseVideocard(videoCards);
+            LOGGER.info("Parsing finished.");
+            return this.devices;
         } catch (ParserConfigurationException | IOException | SAXException e) {
             throw new DeviceException("DOM parser error: ", e);
         }
@@ -58,7 +61,6 @@ public class DOMDeviceParserImpl implements DeviceParser {
 
 
     private void parseCpu(NodeList cpuList) {
-        DeviceRepository deviceRepository = DeviceRepositoryImpl.getInstance();
         for (int i = 0; i < cpuList.getLength(); i++) {
             Element cpuElement = (Element) cpuList.item(i);
             try {
@@ -75,41 +77,39 @@ public class DOMDeviceParserImpl implements DeviceParser {
                         .setPeripheral(Boolean.parseBoolean(getContent(cpuElement, PERIPHERAL.name())))
                         .setPrice(Integer.parseInt(getContent(cpuElement, PRICE.name())))
                         .build();
-                deviceRepository.add(cpu);
+                devices.add(cpu);
             } catch (DeviceException e) {
-                logger.error(INCORRECT_PARAMETER_ERROR, e);
+                LOGGER.error(INCORRECT_PARAMETER_ERROR, e);
             }
         }
     }
 
-    private void parseVideoCard(NodeList videoCards) {
-        DeviceRepository deviceRepository = DeviceRepositoryImpl.getInstance();
-        for (int i = 0; i < videoCards.getLength(); i++) {
-            Element videoCardElement = (Element) videoCards.item(i);
+    private void parseVideocard(NodeList videocards) {
+        for (int i = 0; i < videocards.getLength(); i++) {
+            Element videocardElement = (Element) videocards.item(i);
             try {
-                Videocard videoCard = Videocard.newBuilder()
-                        .setId(videoCardElement.getAttribute(XMLAttributes.ID.name().toLowerCase()))
-                        .setDate(LocalDate.parse(videoCardElement.getAttribute(XMLAttributes.DATE.getValue()).toLowerCase()))
-                        .setDeviceName(getContent(videoCardElement, DEVICE_NAME.name()))
-                        .setCritical(Boolean.parseBoolean(getContent(videoCardElement, CRITICAL.name())))
-                        .setEnergyConsumption(Integer.parseInt(getContent(videoCardElement, POWER_CONSUMPTION.name())))
-                        .setGroupOfComponents(GroupOfComponents.valueOf(getContent(videoCardElement, COMPONENT_GROUP.name())))
-                        .setOrigin(getContent(videoCardElement, ORIGIN.name()))
-                        .setPeripheral(Boolean.parseBoolean(getContent(videoCardElement, PERIPHERAL.name())))
-                        .setPrice(Integer.parseInt(getContent(videoCardElement, PRICE.name())))
-                        .setOutputPort(Port.valueOf(getContent(videoCardElement, OUTPUT_PORT.name())))
-                        .setCooler(Boolean.parseBoolean(getContent(videoCardElement, COOLER.name())))
-                        .setHashRate(Integer.parseInt(getContent(videoCardElement, HASHRATE.name())))
+                Videocard videocard = Videocard.newBuilder()
+                        .setId(videocardElement.getAttribute(XMLAttributes.ID.name().toLowerCase()))
+                        .setDate(LocalDate.parse(videocardElement.getAttribute(XMLAttributes.DATE.getValue()).toLowerCase()))
+                        .setDeviceName(getContent(videocardElement, DEVICE_NAME.name()))
+                        .setCritical(Boolean.parseBoolean(getContent(videocardElement, CRITICAL.name())))
+                        .setEnergyConsumption(Integer.parseInt(getContent(videocardElement, POWER_CONSUMPTION.name())))
+                        .setGroupOfComponents(GroupOfComponents.valueOf(getContent(videocardElement, COMPONENT_GROUP.name())))
+                        .setOrigin(getContent(videocardElement, ORIGIN.name()))
+                        .setPeripheral(Boolean.parseBoolean(getContent(videocardElement, PERIPHERAL.name())))
+                        .setPrice(Integer.parseInt(getContent(videocardElement, PRICE.name())))
+                        .setOutputPort(Port.valueOf(getContent(videocardElement, OUTPUT_PORT.name())))
+                        .setCooler(Boolean.parseBoolean(getContent(videocardElement, COOLER.name())))
+                        .setHashRate(Integer.parseInt(getContent(videocardElement, HASHRATE.name())))
                         .build();
-                deviceRepository.add(videoCard);
+                devices.add(videocard);
             } catch (DeviceException e) {
-                logger.error(INCORRECT_PARAMETER_ERROR, e);
+                LOGGER.error(INCORRECT_PARAMETER_ERROR, e);
             }
         }
     }
 
     private void parseMotherboard(NodeList motherboards) {
-        DeviceRepository deviceRepository = DeviceRepositoryImpl.getInstance();
         for (int i = 0; i < motherboards.getLength(); i++) {
             Element motherboardElement = (Element) motherboards.item(i);
             try {
@@ -126,9 +126,9 @@ public class DOMDeviceParserImpl implements DeviceParser {
                         .setSata(Integer.parseInt(getContent(motherboardElement, SATA.name())))
                         .setMemory(MemoryType.valueOf(getContent(motherboardElement, MEMORY_TYPE.name())))
                         .build();
-                deviceRepository.add(motherboard);
+                devices.add(motherboard);
             } catch (DeviceException e) {
-                logger.error(INCORRECT_PARAMETER_ERROR, e);
+                LOGGER.error(INCORRECT_PARAMETER_ERROR, e);
             }
         }
     }
@@ -137,8 +137,7 @@ public class DOMDeviceParserImpl implements DeviceParser {
         type = type.replace(UNDERSCORE, HYPHEN).toLowerCase();
         NodeList nodeList = element.getElementsByTagName(type);
         Node nodeElement = nodeList.item(DEFAULT_POSITION);
-        String result = nodeElement.getChildNodes().item(DEFAULT_POSITION).getNodeValue();
-        return result;
+        return nodeElement.getChildNodes().item(DEFAULT_POSITION).getNodeValue();
     }
 
 }

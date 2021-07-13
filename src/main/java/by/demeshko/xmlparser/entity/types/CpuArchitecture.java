@@ -6,7 +6,7 @@ public enum CpuArchitecture {
     CANNON_LAKE("Cannon Lake"),
     SKYLAKE("Skylake");
 
-    private final String value;
+    private String value;
 
     CpuArchitecture(String value) {
         this.value = value;
