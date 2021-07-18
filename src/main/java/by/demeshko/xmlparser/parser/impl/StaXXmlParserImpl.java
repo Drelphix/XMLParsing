@@ -181,6 +181,6 @@ public class StaXXmlParserImpl implements DeviceParser {
     }
 
     private String changeTag(String name) {
-        return name.toUpperCase().replaceAll(HYPHEN, UNDERSCORE);
+        return name.toUpperCase().replace(HYPHEN, UNDERSCORE);
     }
 }

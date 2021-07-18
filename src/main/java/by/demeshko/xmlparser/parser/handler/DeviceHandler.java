@@ -28,6 +28,7 @@ public class DeviceHandler extends DefaultHandler {
     private Motherboard.Builder motherboardBuilder;
     private XMLTag currentDeviceTag;
     private XMLTag deviceType;
+    private static final String UNKNOWN_XML_TAG = "Unknown xml tag ";
     private List<Device> devices = new ArrayList<>();
 
     @Override
@@ -79,7 +80,7 @@ public class DeviceHandler extends DefaultHandler {
     }
 
     @Override
-    public void characters(char[] ch, int start, int length) throws SAXException {
+    public void characters(char[] ch, int start, int length) {
         String deviceParam = new String(ch, start, length);
         deviceParam = deviceParam.replace("\n", "").trim();
         try {
@@ -111,7 +112,7 @@ public class DeviceHandler extends DefaultHandler {
                 case POWER_CONSUMPTION -> this.cpuBuilder.setEnergyConsumption(Integer.parseInt(data));
                 case CPU_SOCKET -> this.cpuBuilder.setCpuSocket(CpuSocket.valueOf(data));
                 case ARCHITECTURE -> this.cpuBuilder.setCpuArchitecture(CpuArchitecture.valueOf(data));
-                default -> throw new XMLParseException("Unknown xml tag " + this.currentDeviceTag + " in CPU");
+                default -> throw new XMLParseException(UNKNOWN_XML_TAG + this.currentDeviceTag + " in CPU");
             }
         } catch (DeviceException e) {
             logger.error(e);
@@ -133,7 +134,7 @@ public class DeviceHandler extends DefaultHandler {
                 case OUTPUT_PORT -> this.videocardBuilder.setOutputPort(Port.valueOf(data));
                 default -> throw new XMLParseException(
                         new StringBuilder()
-                                .append("Unknown xml tag ")
+                                .append(UNKNOWN_XML_TAG)
                                 .append(this.currentDeviceTag)
                                 .append(" in Videocard").toString());
             }
@@ -156,7 +157,7 @@ public class DeviceHandler extends DefaultHandler {
                 case SATA -> this.motherboardBuilder.setSata(Integer.parseInt(data));
                 default -> throw new XMLParseException(
                         new StringBuilder()
-                                .append("Unknown xml tag ")
+                                .append(UNKNOWN_XML_TAG)
                                 .append(this.currentDeviceTag)
                                 .append(" in Videocard").toString());
             }

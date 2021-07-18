@@ -141,7 +141,7 @@ public class Videocard extends Device {
             return this;
         }
 
-        public Videocard.Builder setEnergyConsumption(int energyConsumption) throws DeviceException {
+        public Videocard.Builder setEnergyConsumption(int energyConsumption){
             Videocard.this.setEnergyConsumption(energyConsumption);
             return this;
         }

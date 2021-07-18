@@ -7,7 +7,7 @@ public enum GroupOfComponents {
     STORAGE_DEVICE("Storage devices"),
     NETWORK_DEVICE("Network devices");
 
-    private String value;
+    private final String value;
 
     GroupOfComponents(String value) {
         this.value = value;

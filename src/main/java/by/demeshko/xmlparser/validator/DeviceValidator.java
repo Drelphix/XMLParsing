@@ -1,6 +1,5 @@
 package by.demeshko.xmlparser.validator;
 
-import by.demeshko.xmlparser.exception.DeviceException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.xml.sax.SAXException;
@@ -11,13 +10,8 @@ import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
 import java.io.File;
 import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
-public class DeviceValidator { //TODO 12.07.2021 22:34 :
+public class DeviceValidator { 
     private static final Logger LOGGER = LogManager.getLogger();
 
     public static boolean isFileExists(String filePath)  {
